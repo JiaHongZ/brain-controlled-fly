@@ -1,4 +1,4 @@
-# Brain-Controlled Digital Fly — 真实数据版
+# Brain-Controlled Digital Fly
 
 > **🖥️ 在线 Demo（点击体验）**：<https://naturals-extremely-operation-grill.trycloudflare.com>
 
