@@ -1,5 +1,7 @@
 # Brain-Controlled Digital Fly — 真实数据版
 
+> **🖥️ 在线 Demo（点击体验）**：<https://naturals-extremely-operation-grill.trycloudflare.com>
+
 **部署到网页服务器：请看 [DEPLOY.md](DEPLOY.md)。包含 Docker / Compose / Nginx 配置。**
 
 公开人类 EEG → CSP + LDA → 真实 MANC 连接组上的神经活动传播 → 运动神经元读出 → NeuroMechFly / MuJoCo 物理行为。
