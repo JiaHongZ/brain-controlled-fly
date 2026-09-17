@@ -1,0 +1,14 @@
+services:
+  neurofly:
+    build: .
+    image: neurofly:real-manc
+    init: true
+    restart: unless-stopped
+    ports:
+      - "${FLY_BIND:-127.0.0.1}:${FLY_PORT:-8501}:8501"
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

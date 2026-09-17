@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Measured MANC and physical mesh bootstrap",
+    "Real decoded LEFT then RIGHT trials, moving physical body and joints",
+    "Pause freezes physics",
+    "Synapse cut and restore",
+    "Both modes, speed, next and reset",
+    "Details and mobile layout without horizontal overflow"
+  ],
+  "errors": []
+}

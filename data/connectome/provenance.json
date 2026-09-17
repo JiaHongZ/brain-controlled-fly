@@ -1,0 +1,8 @@
+{
+  "dataset": "MANC v1.0",
+  "role": "visualization subset only",
+  "synthetic_edges": false,
+  "full_dynamics": "../manc/measured_network.npz",
+  "display_nodes": 1800,
+  "display_edges": 20000
+}

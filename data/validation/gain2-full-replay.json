@@ -1,0 +1,1746 @@
+{
+  "decoded": {
+    "gain": 2.0,
+    "trials": 144,
+    "minimum_upright": 0.9819399208986704,
+    "matches": 144,
+    "events": [
+      {
+        "trial": 1,
+        "drive": 0,
+        "turn_deg": 23.920920147165276,
+        "match": true
+      },
+      {
+        "trial": 2,
+        "drive": 1,
+        "turn_deg": -24.212755557642982,
+        "match": true
+      },
+      {
+        "trial": 3,
+        "drive": 0,
+        "turn_deg": 24.46415090252463,
+        "match": true
+      },
+      {
+        "trial": 4,
+        "drive": 0,
+        "turn_deg": 22.059010029920675,
+        "match": true
+      },
+      {
+        "trial": 5,
+        "drive": 0,
+        "turn_deg": 25.283161449766563,
+        "match": true
+      },
+      {
+        "trial": 6,
+        "drive": 0,
+        "turn_deg": 25.687693416405363,
+        "match": true
+      },
+      {
+        "trial": 7,
+        "drive": 0,
+        "turn_deg": 23.5336343597802,
+        "match": true
+      },
+      {
+        "trial": 8,
+        "drive": 1,
+        "turn_deg": -24.13452389366056,
+        "match": true
+      },
+      {
+        "trial": 9,
+        "drive": 0,
+        "turn_deg": 24.35583318601359,
+        "match": true
+      },
+      {
+        "trial": 10,
+        "drive": 1,
+        "turn_deg": -25.459942599175893,
+        "match": true
+      },
+      {
+        "trial": 11,
+        "drive": 0,
+        "turn_deg": 25.206945780512072,
+        "match": true
+      },
+      {
+        "trial": 12,
+        "drive": 0,
+        "turn_deg": 21.93905174954544,
+        "match": true
+      },
+      {
+        "trial": 13,
+        "drive": 1,
+        "turn_deg": -21.959569457543587,
+        "match": true
+      },
+      {
+        "trial": 14,
+        "drive": 0,
+        "turn_deg": 22.759687287135833,
+        "match": true
+      },
+      {
+        "trial": 15,
+        "drive": 0,
+        "turn_deg": 22.866864866426017,
+        "match": true
+      },
+      {
+        "trial": 16,
+        "drive": 0,
+        "turn_deg": 26.18044042805103,
+        "match": true
+      },
+      {
+        "trial": 17,
+        "drive": 0,
+        "turn_deg": 25.187195377392342,
+        "match": true
+      },
+      {
+        "trial": 18,
+        "drive": 1,
+        "turn_deg": -26.110049083679684,
+        "match": true
+      },
+      {
+        "trial": 19,
+        "drive": 0,
+        "turn_deg": 25.565303290968103,
+        "match": true
+      },
+      {
+        "trial": 20,
+        "drive": 1,
+        "turn_deg": -25.815248208941195,
+        "match": true
+      },
+      {
+        "trial": 21,
+        "drive": 1,
+        "turn_deg": -23.086069907759686,
+        "match": true
+      },
+      {
+        "trial": 22,
+        "drive": 0,
+        "turn_deg": 25.97467832228801,
+        "match": true
+      },
+      {
+        "trial": 23,
+        "drive": 1,
+        "turn_deg": -23.454521684049837,
+        "match": true
+      },
+      {
+        "trial": 24,
+        "drive": 0,
+        "turn_deg": 25.83621667205666,
+        "match": true
+      },
+      {
+        "trial": 25,
+        "drive": 0,
+        "turn_deg": 25.5734484128294,
+        "match": true
+      },
+      {
+        "trial": 26,
+        "drive": 0,
+        "turn_deg": 23.111038554035346,
+        "match": true
+      },
+      {
+        "trial": 27,
+        "drive": 0,
+        "turn_deg": 22.03813983286832,
+        "match": true
+      },
+      {
+        "trial": 28,
+        "drive": 1,
+        "turn_deg": -21.121960201569493,
+        "match": true
+      },
+      {
+        "trial": 29,
+        "drive": 1,
+        "turn_deg": -23.688108502666744,
+        "match": true
+      },
+      {
+        "trial": 30,
+        "drive": 0,
+        "turn_deg": 24.185540329702324,
+        "match": true
+      },
+      {
+        "trial": 31,
+        "drive": 0,
+        "turn_deg": 21.465337175144523,
+        "match": true
+      },
+      {
+        "trial": 32,
+        "drive": 0,
+        "turn_deg": 25.75218692786806,
+        "match": true
+      },
+      {
+        "trial": 33,
+        "drive": 1,
+        "turn_deg": -23.3008833120735,
+        "match": true
+      },
+      {
+        "trial": 34,
+        "drive": 0,
+        "turn_deg": 25.582078693180627,
+        "match": true
+      },
+      {
+        "trial": 35,
+        "drive": 0,
+        "turn_deg": 25.4678894568043,
+        "match": true
+      },
+      {
+        "trial": 36,
+        "drive": 0,
+        "turn_deg": 23.180537493708105,
+        "match": true
+      },
+      {
+        "trial": 37,
+        "drive": 0,
+        "turn_deg": 22.14380237330199,
+        "match": true
+      },
+      {
+        "trial": 38,
+        "drive": 1,
+        "turn_deg": -21.14106576193806,
+        "match": true
+      },
+      {
+        "trial": 39,
+        "drive": 0,
+        "turn_deg": 22.11695967244911,
+        "match": true
+      },
+      {
+        "trial": 40,
+        "drive": 0,
+        "turn_deg": 26.387735476854484,
+        "match": true
+      },
+      {
+        "trial": 41,
+        "drive": 0,
+        "turn_deg": 25.421637553926807,
+        "match": true
+      },
+      {
+        "trial": 42,
+        "drive": 0,
+        "turn_deg": 22.517969035965333,
+        "match": true
+      },
+      {
+        "trial": 43,
+        "drive": 1,
+        "turn_deg": -22.323483202918364,
+        "match": true
+      },
+      {
+        "trial": 44,
+        "drive": 0,
+        "turn_deg": 23.101736204822274,
+        "match": true
+      },
+      {
+        "trial": 45,
+        "drive": 0,
+        "turn_deg": 22.45950372617028,
+        "match": true
+      },
+      {
+        "trial": 46,
+        "drive": 0,
+        "turn_deg": 26.029863831903793,
+        "match": true
+      },
+      {
+        "trial": 47,
+        "drive": 0,
+        "turn_deg": 25.287699614121838,
+        "match": true
+      },
+      {
+        "trial": 48,
+        "drive": 0,
+        "turn_deg": 22.052618354333138,
+        "match": true
+      },
+      {
+        "trial": 49,
+        "drive": 0,
+        "turn_deg": 24.00459936452367,
+        "match": true
+      },
+      {
+        "trial": 50,
+        "drive": 1,
+        "turn_deg": -22.271161284287796,
+        "match": true
+      },
+      {
+        "trial": 51,
+        "drive": 0,
+        "turn_deg": 23.790405506868993,
+        "match": true
+      },
+      {
+        "trial": 52,
+        "drive": 0,
+        "turn_deg": 25.95202766442206,
+        "match": true
+      },
+      {
+        "trial": 53,
+        "drive": 0,
+        "turn_deg": 24.564301361251573,
+        "match": true
+      },
+      {
+        "trial": 54,
+        "drive": 0,
+        "turn_deg": 21.644253050432628,
+        "match": true
+      },
+      {
+        "trial": 55,
+        "drive": 0,
+        "turn_deg": 25.390035389055924,
+        "match": true
+      },
+      {
+        "trial": 56,
+        "drive": 0,
+        "turn_deg": 25.268026557430964,
+        "match": true
+      },
+      {
+        "trial": 57,
+        "drive": 1,
+        "turn_deg": -25.586007318659103,
+        "match": true
+      },
+      {
+        "trial": 58,
+        "drive": 0,
+        "turn_deg": 25.60162038546288,
+        "match": true
+      },
+      {
+        "trial": 59,
+        "drive": 1,
+        "turn_deg": -25.72630461684225,
+        "match": true
+      },
+      {
+        "trial": 60,
+        "drive": 0,
+        "turn_deg": 25.87298985615546,
+        "match": true
+      },
+      {
+        "trial": 61,
+        "drive": 0,
+        "turn_deg": 24.425863421162568,
+        "match": true
+      },
+      {
+        "trial": 62,
+        "drive": 0,
+        "turn_deg": 21.810212923279767,
+        "match": true
+      },
+      {
+        "trial": 63,
+        "drive": 0,
+        "turn_deg": 25.051137207060403,
+        "match": true
+      },
+      {
+        "trial": 64,
+        "drive": 0,
+        "turn_deg": 25.477004368864655,
+        "match": true
+      },
+      {
+        "trial": 65,
+        "drive": 1,
+        "turn_deg": -26.06633458132296,
+        "match": true
+      },
+      {
+        "trial": 66,
+        "drive": 0,
+        "turn_deg": 25.657283812952738,
+        "match": true
+      },
+      {
+        "trial": 67,
+        "drive": 1,
+        "turn_deg": -25.69853210099423,
+        "match": true
+      },
+      {
+        "trial": 68,
+        "drive": 0,
+        "turn_deg": 25.795418960696267,
+        "match": true
+      },
+      {
+        "trial": 69,
+        "drive": 0,
+        "turn_deg": 25.036243469820626,
+        "match": true
+      },
+      {
+        "trial": 70,
+        "drive": 0,
+        "turn_deg": 21.627143147030715,
+        "match": true
+      },
+      {
+        "trial": 71,
+        "drive": 1,
+        "turn_deg": -20.97969754549331,
+        "match": true
+      },
+      {
+        "trial": 72,
+        "drive": 0,
+        "turn_deg": 21.85232475819873,
+        "match": true
+      },
+      {
+        "trial": 73,
+        "drive": 0,
+        "turn_deg": 24.537697898806393,
+        "match": true
+      },
+      {
+        "trial": 74,
+        "drive": 0,
+        "turn_deg": 25.887201523131836,
+        "match": true
+      },
+      {
+        "trial": 75,
+        "drive": 0,
+        "turn_deg": 23.80661840873654,
+        "match": true
+      },
+      {
+        "trial": 76,
+        "drive": 0,
+        "turn_deg": 21.61851714007216,
+        "match": true
+      },
+      {
+        "trial": 77,
+        "drive": 1,
+        "turn_deg": -20.862864769158808,
+        "match": true
+      },
+      {
+        "trial": 78,
+        "drive": 0,
+        "turn_deg": 21.40436782454985,
+        "match": true
+      },
+      {
+        "trial": 79,
+        "drive": 0,
+        "turn_deg": 25.22630189986964,
+        "match": true
+      },
+      {
+        "trial": 80,
+        "drive": 1,
+        "turn_deg": -23.16842409567784,
+        "match": true
+      },
+      {
+        "trial": 81,
+        "drive": 0,
+        "turn_deg": 25.22419319647222,
+        "match": true
+      },
+      {
+        "trial": 82,
+        "drive": 1,
+        "turn_deg": -23.17629123151985,
+        "match": true
+      },
+      {
+        "trial": 83,
+        "drive": 0,
+        "turn_deg": 25.341050841336454,
+        "match": true
+      },
+      {
+        "trial": 84,
+        "drive": 1,
+        "turn_deg": -23.183406729941815,
+        "match": true
+      },
+      {
+        "trial": 85,
+        "drive": 0,
+        "turn_deg": 25.035440792580005,
+        "match": true
+      },
+      {
+        "trial": 86,
+        "drive": 1,
+        "turn_deg": -23.136935074280668,
+        "match": true
+      },
+      {
+        "trial": 87,
+        "drive": 0,
+        "turn_deg": 25.241148395168896,
+        "match": true
+      },
+      {
+        "trial": 88,
+        "drive": 0,
+        "turn_deg": 25.570135653829887,
+        "match": true
+      },
+      {
+        "trial": 89,
+        "drive": 0,
+        "turn_deg": 23.45041915759496,
+        "match": true
+      },
+      {
+        "trial": 90,
+        "drive": 0,
+        "turn_deg": 21.838412304765757,
+        "match": true
+      },
+      {
+        "trial": 91,
+        "drive": 1,
+        "turn_deg": -20.809608054143983,
+        "match": true
+      },
+      {
+        "trial": 92,
+        "drive": 0,
+        "turn_deg": 21.67710470162683,
+        "match": true
+      },
+      {
+        "trial": 93,
+        "drive": 0,
+        "turn_deg": 26.30096051777619,
+        "match": true
+      },
+      {
+        "trial": 94,
+        "drive": 0,
+        "turn_deg": 25.7261810811619,
+        "match": true
+      },
+      {
+        "trial": 95,
+        "drive": 1,
+        "turn_deg": -26.086634961486826,
+        "match": true
+      },
+      {
+        "trial": 96,
+        "drive": 0,
+        "turn_deg": 25.55021037052994,
+        "match": true
+      },
+      {
+        "trial": 97,
+        "drive": 1,
+        "turn_deg": -25.94026474224394,
+        "match": true
+      },
+      {
+        "trial": 98,
+        "drive": 0,
+        "turn_deg": 25.55248083263733,
+        "match": true
+      },
+      {
+        "trial": 99,
+        "drive": 0,
+        "turn_deg": 23.88723286527007,
+        "match": true
+      },
+      {
+        "trial": 100,
+        "drive": 0,
+        "turn_deg": 21.641100932441034,
+        "match": true
+      },
+      {
+        "trial": 101,
+        "drive": 0,
+        "turn_deg": 25.799687321642587,
+        "match": true
+      },
+      {
+        "trial": 102,
+        "drive": 0,
+        "turn_deg": 25.613864857694075,
+        "match": true
+      },
+      {
+        "trial": 103,
+        "drive": 1,
+        "turn_deg": -25.9172385107739,
+        "match": true
+      },
+      {
+        "trial": 104,
+        "drive": 0,
+        "turn_deg": 25.850558744358707,
+        "match": true
+      },
+      {
+        "trial": 105,
+        "drive": 1,
+        "turn_deg": -26.054780908704377,
+        "match": true
+      },
+      {
+        "trial": 106,
+        "drive": 1,
+        "turn_deg": -22.431446432329473,
+        "match": true
+      },
+      {
+        "trial": 107,
+        "drive": 1,
+        "turn_deg": -21.49566953969622,
+        "match": true
+      },
+      {
+        "trial": 108,
+        "drive": 0,
+        "turn_deg": 22.413130726672243,
+        "match": true
+      },
+      {
+        "trial": 109,
+        "drive": 1,
+        "turn_deg": -22.299863889255654,
+        "match": true
+      },
+      {
+        "trial": 110,
+        "drive": 0,
+        "turn_deg": 23.173998497872475,
+        "match": true
+      },
+      {
+        "trial": 111,
+        "drive": 0,
+        "turn_deg": 22.13739811382283,
+        "match": true
+      },
+      {
+        "trial": 112,
+        "drive": 0,
+        "turn_deg": 26.36373331034833,
+        "match": true
+      },
+      {
+        "trial": 113,
+        "drive": 0,
+        "turn_deg": 25.326431932036495,
+        "match": true
+      },
+      {
+        "trial": 114,
+        "drive": 0,
+        "turn_deg": 22.37110795736872,
+        "match": true
+      },
+      {
+        "trial": 115,
+        "drive": 0,
+        "turn_deg": 24.015346304248283,
+        "match": true
+      },
+      {
+        "trial": 116,
+        "drive": 1,
+        "turn_deg": -22.0512381307913,
+        "match": true
+      },
+      {
+        "trial": 117,
+        "drive": 1,
+        "turn_deg": -21.960335377583068,
+        "match": true
+      },
+      {
+        "trial": 118,
+        "drive": 0,
+        "turn_deg": 22.715011868931875,
+        "match": true
+      },
+      {
+        "trial": 119,
+        "drive": 1,
+        "turn_deg": -22.49993491620662,
+        "match": true
+      },
+      {
+        "trial": 120,
+        "drive": 0,
+        "turn_deg": 23.523329253834696,
+        "match": true
+      },
+      {
+        "trial": 121,
+        "drive": 0,
+        "turn_deg": 21.908165356949127,
+        "match": true
+      },
+      {
+        "trial": 122,
+        "drive": 0,
+        "turn_deg": 26.443791962472435,
+        "match": true
+      },
+      {
+        "trial": 123,
+        "drive": 0,
+        "turn_deg": 25.42579994299773,
+        "match": true
+      },
+      {
+        "trial": 124,
+        "drive": 0,
+        "turn_deg": 22.218319431606062,
+        "match": true
+      },
+      {
+        "trial": 125,
+        "drive": 0,
+        "turn_deg": 23.22350147006981,
+        "match": true
+      },
+      {
+        "trial": 126,
+        "drive": 1,
+        "turn_deg": -21.926867090095712,
+        "match": true
+      },
+      {
+        "trial": 127,
+        "drive": 0,
+        "turn_deg": 23.047442756740498,
+        "match": true
+      },
+      {
+        "trial": 128,
+        "drive": 0,
+        "turn_deg": 25.990795539032085,
+        "match": true
+      },
+      {
+        "trial": 129,
+        "drive": 1,
+        "turn_deg": -25.076769284965803,
+        "match": true
+      },
+      {
+        "trial": 130,
+        "drive": 1,
+        "turn_deg": -21.462418304589537,
+        "match": true
+      },
+      {
+        "trial": 131,
+        "drive": 1,
+        "turn_deg": -23.104617357750136,
+        "match": true
+      },
+      {
+        "trial": 132,
+        "drive": 0,
+        "turn_deg": 23.606412041504214,
+        "match": true
+      },
+      {
+        "trial": 133,
+        "drive": 1,
+        "turn_deg": -24.036920267476926,
+        "match": true
+      },
+      {
+        "trial": 134,
+        "drive": 0,
+        "turn_deg": 24.556470156338122,
+        "match": true
+      },
+      {
+        "trial": 135,
+        "drive": 0,
+        "turn_deg": 21.837153660946644,
+        "match": true
+      },
+      {
+        "trial": 136,
+        "drive": 0,
+        "turn_deg": 25.066780566643818,
+        "match": true
+      },
+      {
+        "trial": 137,
+        "drive": 0,
+        "turn_deg": 25.637745074641657,
+        "match": true
+      },
+      {
+        "trial": 138,
+        "drive": 0,
+        "turn_deg": 23.486501681386358,
+        "match": true
+      },
+      {
+        "trial": 139,
+        "drive": 0,
+        "turn_deg": 22.012357086736568,
+        "match": true
+      },
+      {
+        "trial": 140,
+        "drive": 0,
+        "turn_deg": 26.073077238049112,
+        "match": true
+      },
+      {
+        "trial": 141,
+        "drive": 0,
+        "turn_deg": 25.725239061743643,
+        "match": true
+      },
+      {
+        "trial": 142,
+        "drive": 0,
+        "turn_deg": 22.734529545898745,
+        "match": true
+      },
+      {
+        "trial": 143,
+        "drive": 1,
+        "turn_deg": -22.477071679619574,
+        "match": true
+      },
+      {
+        "trial": 144,
+        "drive": 0,
+        "turn_deg": 23.521372426623564,
+        "match": true
+      }
+    ]
+  },
+  "truth": {
+    "gain": 2.0,
+    "trials": 144,
+    "minimum_upright": 0.981947817507586,
+    "matches": 144,
+    "events": [
+      {
+        "trial": 1,
+        "drive": 0,
+        "turn_deg": 23.920920147165276,
+        "match": true
+      },
+      {
+        "trial": 2,
+        "drive": 1,
+        "turn_deg": -24.212755557642982,
+        "match": true
+      },
+      {
+        "trial": 3,
+        "drive": 1,
+        "turn_deg": -25.56740088062318,
+        "match": true
+      },
+      {
+        "trial": 4,
+        "drive": 0,
+        "turn_deg": 26.024992345473706,
+        "match": true
+      },
+      {
+        "trial": 5,
+        "drive": 1,
+        "turn_deg": -25.251416276645962,
+        "match": true
+      },
+      {
+        "trial": 6,
+        "drive": 0,
+        "turn_deg": 25.956635587439983,
+        "match": true
+      },
+      {
+        "trial": 7,
+        "drive": 1,
+        "turn_deg": -25.16340801411134,
+        "match": true
+      },
+      {
+        "trial": 8,
+        "drive": 1,
+        "turn_deg": -21.443360675897562,
+        "match": true
+      },
+      {
+        "trial": 9,
+        "drive": 0,
+        "turn_deg": 22.29363360373035,
+        "match": true
+      },
+      {
+        "trial": 10,
+        "drive": 1,
+        "turn_deg": -21.293275767390092,
+        "match": true
+      },
+      {
+        "trial": 11,
+        "drive": 0,
+        "turn_deg": 22.27235610836283,
+        "match": true
+      },
+      {
+        "trial": 12,
+        "drive": 0,
+        "turn_deg": 25.927897921589178,
+        "match": true
+      },
+      {
+        "trial": 13,
+        "drive": 1,
+        "turn_deg": -24.624553631136298,
+        "match": true
+      },
+      {
+        "trial": 14,
+        "drive": 0,
+        "turn_deg": 26.278292216172964,
+        "match": true
+      },
+      {
+        "trial": 15,
+        "drive": 0,
+        "turn_deg": 25.557927225770676,
+        "match": true
+      },
+      {
+        "trial": 16,
+        "drive": 0,
+        "turn_deg": 22.335618146628665,
+        "match": true
+      },
+      {
+        "trial": 17,
+        "drive": 0,
+        "turn_deg": 23.923080732693734,
+        "match": true
+      },
+      {
+        "trial": 18,
+        "drive": 1,
+        "turn_deg": -22.243454296142975,
+        "match": true
+      },
+      {
+        "trial": 19,
+        "drive": 0,
+        "turn_deg": 23.715570730267967,
+        "match": true
+      },
+      {
+        "trial": 20,
+        "drive": 1,
+        "turn_deg": -22.240563231434425,
+        "match": true
+      },
+      {
+        "trial": 21,
+        "drive": 1,
+        "turn_deg": -22.36322959536434,
+        "match": true
+      },
+      {
+        "trial": 22,
+        "drive": 0,
+        "turn_deg": 23.040260002511364,
+        "match": true
+      },
+      {
+        "trial": 23,
+        "drive": 1,
+        "turn_deg": -22.96305179826056,
+        "match": true
+      },
+      {
+        "trial": 24,
+        "drive": 1,
+        "turn_deg": -26.18128619812406,
+        "match": true
+      },
+      {
+        "trial": 25,
+        "drive": 1,
+        "turn_deg": -22.668685685417977,
+        "match": true
+      },
+      {
+        "trial": 26,
+        "drive": 0,
+        "turn_deg": 24.298343333236417,
+        "match": true
+      },
+      {
+        "trial": 27,
+        "drive": 0,
+        "turn_deg": 25.734834597598343,
+        "match": true
+      },
+      {
+        "trial": 28,
+        "drive": 1,
+        "turn_deg": -25.885909892701292,
+        "match": true
+      },
+      {
+        "trial": 29,
+        "drive": 1,
+        "turn_deg": -22.11521716389228,
+        "match": true
+      },
+      {
+        "trial": 30,
+        "drive": 0,
+        "turn_deg": 23.543896466534378,
+        "match": true
+      },
+      {
+        "trial": 31,
+        "drive": 0,
+        "turn_deg": 25.977902465266617,
+        "match": true
+      },
+      {
+        "trial": 32,
+        "drive": 0,
+        "turn_deg": 24.871271892242845,
+        "match": true
+      },
+      {
+        "trial": 33,
+        "drive": 1,
+        "turn_deg": -25.881057116137114,
+        "match": true
+      },
+      {
+        "trial": 34,
+        "drive": 1,
+        "turn_deg": -24.526997602361376,
+        "match": true
+      },
+      {
+        "trial": 35,
+        "drive": 0,
+        "turn_deg": 26.10894055290556,
+        "match": true
+      },
+      {
+        "trial": 36,
+        "drive": 0,
+        "turn_deg": 25.457690449040918,
+        "match": true
+      },
+      {
+        "trial": 37,
+        "drive": 0,
+        "turn_deg": 22.253706055542345,
+        "match": true
+      },
+      {
+        "trial": 38,
+        "drive": 1,
+        "turn_deg": -22.150379240203513,
+        "match": true
+      },
+      {
+        "trial": 39,
+        "drive": 0,
+        "turn_deg": 23.225462591898616,
+        "match": true
+      },
+      {
+        "trial": 40,
+        "drive": 1,
+        "turn_deg": -22.581945756387228,
+        "match": true
+      },
+      {
+        "trial": 41,
+        "drive": 1,
+        "turn_deg": -25.957060802852524,
+        "match": true
+      },
+      {
+        "trial": 42,
+        "drive": 0,
+        "turn_deg": 25.76126171059203,
+        "match": true
+      },
+      {
+        "trial": 43,
+        "drive": 1,
+        "turn_deg": -25.75871038701176,
+        "match": true
+      },
+      {
+        "trial": 44,
+        "drive": 0,
+        "turn_deg": 25.66479456689179,
+        "match": true
+      },
+      {
+        "trial": 45,
+        "drive": 1,
+        "turn_deg": -25.551510407109213,
+        "match": true
+      },
+      {
+        "trial": 46,
+        "drive": 1,
+        "turn_deg": -21.921851599008995,
+        "match": true
+      },
+      {
+        "trial": 47,
+        "drive": 1,
+        "turn_deg": -22.57720986073779,
+        "match": true
+      },
+      {
+        "trial": 48,
+        "drive": 0,
+        "turn_deg": 23.168360025394936,
+        "match": true
+      },
+      {
+        "trial": 49,
+        "drive": 0,
+        "turn_deg": 21.990786503658747,
+        "match": true
+      },
+      {
+        "trial": 50,
+        "drive": 0,
+        "turn_deg": 26.303018394566696,
+        "match": true
+      },
+      {
+        "trial": 51,
+        "drive": 1,
+        "turn_deg": -24.518304010127903,
+        "match": true
+      },
+      {
+        "trial": 52,
+        "drive": 0,
+        "turn_deg": 25.846058329434854,
+        "match": true
+      },
+      {
+        "trial": 53,
+        "drive": 0,
+        "turn_deg": 25.565829744519604,
+        "match": true
+      },
+      {
+        "trial": 54,
+        "drive": 1,
+        "turn_deg": -26.06309077198775,
+        "match": true
+      },
+      {
+        "trial": 55,
+        "drive": 0,
+        "turn_deg": 25.571567752120334,
+        "match": true
+      },
+      {
+        "trial": 56,
+        "drive": 0,
+        "turn_deg": 23.296276802640374,
+        "match": true
+      },
+      {
+        "trial": 57,
+        "drive": 1,
+        "turn_deg": -22.817733354568546,
+        "match": true
+      },
+      {
+        "trial": 58,
+        "drive": 0,
+        "turn_deg": 23.563812319767752,
+        "match": true
+      },
+      {
+        "trial": 59,
+        "drive": 1,
+        "turn_deg": -24.2557946070061,
+        "match": true
+      },
+      {
+        "trial": 60,
+        "drive": 1,
+        "turn_deg": -25.71507153808612,
+        "match": true
+      },
+      {
+        "trial": 61,
+        "drive": 0,
+        "turn_deg": 25.95177688326648,
+        "match": true
+      },
+      {
+        "trial": 62,
+        "drive": 1,
+        "turn_deg": -25.237267089843215,
+        "match": true
+      },
+      {
+        "trial": 63,
+        "drive": 0,
+        "turn_deg": 25.9083899730362,
+        "match": true
+      },
+      {
+        "trial": 64,
+        "drive": 0,
+        "turn_deg": 25.093691810781323,
+        "match": true
+      },
+      {
+        "trial": 65,
+        "drive": 1,
+        "turn_deg": -26.060631020883626,
+        "match": true
+      },
+      {
+        "trial": 66,
+        "drive": 0,
+        "turn_deg": 25.688257938132004,
+        "match": true
+      },
+      {
+        "trial": 67,
+        "drive": 1,
+        "turn_deg": -25.85807522902761,
+        "match": true
+      },
+      {
+        "trial": 68,
+        "drive": 1,
+        "turn_deg": -23.42977531809898,
+        "match": true
+      },
+      {
+        "trial": 69,
+        "drive": 1,
+        "turn_deg": -20.94170603078687,
+        "match": true
+      },
+      {
+        "trial": 70,
+        "drive": 1,
+        "turn_deg": -25.975487268508868,
+        "match": true
+      },
+      {
+        "trial": 71,
+        "drive": 1,
+        "turn_deg": -24.79865077632947,
+        "match": true
+      },
+      {
+        "trial": 72,
+        "drive": 0,
+        "turn_deg": 25.927896921930923,
+        "match": true
+      },
+      {
+        "trial": 73,
+        "drive": 1,
+        "turn_deg": -24.890514551322557,
+        "match": true
+      },
+      {
+        "trial": 74,
+        "drive": 0,
+        "turn_deg": 25.92518029809193,
+        "match": true
+      },
+      {
+        "trial": 75,
+        "drive": 0,
+        "turn_deg": 25.23393301718215,
+        "match": true
+      },
+      {
+        "trial": 76,
+        "drive": 0,
+        "turn_deg": 22.214345076486286,
+        "match": true
+      },
+      {
+        "trial": 77,
+        "drive": 1,
+        "turn_deg": -22.219278223806175,
+        "match": true
+      },
+      {
+        "trial": 78,
+        "drive": 1,
+        "turn_deg": -25.910467058576813,
+        "match": true
+      },
+      {
+        "trial": 79,
+        "drive": 0,
+        "turn_deg": 25.316312508980694,
+        "match": true
+      },
+      {
+        "trial": 80,
+        "drive": 1,
+        "turn_deg": -26.0200812723693,
+        "match": true
+      },
+      {
+        "trial": 81,
+        "drive": 0,
+        "turn_deg": 25.615830747715734,
+        "match": true
+      },
+      {
+        "trial": 82,
+        "drive": 1,
+        "turn_deg": -25.748430891553102,
+        "match": true
+      },
+      {
+        "trial": 83,
+        "drive": 0,
+        "turn_deg": 25.815403418412984,
+        "match": true
+      },
+      {
+        "trial": 84,
+        "drive": 1,
+        "turn_deg": -25.559496273052453,
+        "match": true
+      },
+      {
+        "trial": 85,
+        "drive": 1,
+        "turn_deg": -21.846249353839664,
+        "match": true
+      },
+      {
+        "trial": 86,
+        "drive": 1,
+        "turn_deg": -22.655909352717305,
+        "match": true
+      },
+      {
+        "trial": 87,
+        "drive": 0,
+        "turn_deg": 23.322661470832056,
+        "match": true
+      },
+      {
+        "trial": 88,
+        "drive": 0,
+        "turn_deg": 22.036496019665233,
+        "match": true
+      },
+      {
+        "trial": 89,
+        "drive": 1,
+        "turn_deg": -20.908592650199754,
+        "match": true
+      },
+      {
+        "trial": 90,
+        "drive": 0,
+        "turn_deg": 21.851915642254447,
+        "match": true
+      },
+      {
+        "trial": 91,
+        "drive": 1,
+        "turn_deg": -20.8295439564201,
+        "match": true
+      },
+      {
+        "trial": 92,
+        "drive": 1,
+        "turn_deg": -24.4753296267561,
+        "match": true
+      },
+      {
+        "trial": 93,
+        "drive": 0,
+        "turn_deg": 24.762508411555554,
+        "match": true
+      },
+      {
+        "trial": 94,
+        "drive": 0,
+        "turn_deg": 21.64066981675,
+        "match": true
+      },
+      {
+        "trial": 95,
+        "drive": 1,
+        "turn_deg": -20.88467344537483,
+        "match": true
+      },
+      {
+        "trial": 96,
+        "drive": 0,
+        "turn_deg": 21.923140146239756,
+        "match": true
+      },
+      {
+        "trial": 97,
+        "drive": 1,
+        "turn_deg": -21.811460031903597,
+        "match": true
+      },
+      {
+        "trial": 98,
+        "drive": 0,
+        "turn_deg": 22.139059218765492,
+        "match": true
+      },
+      {
+        "trial": 99,
+        "drive": 0,
+        "turn_deg": 23.158077648745632,
+        "match": true
+      },
+      {
+        "trial": 100,
+        "drive": 1,
+        "turn_deg": -21.992079409565534,
+        "match": true
+      },
+      {
+        "trial": 101,
+        "drive": 0,
+        "turn_deg": 22.933969017704257,
+        "match": true
+      },
+      {
+        "trial": 102,
+        "drive": 0,
+        "turn_deg": 26.04721379637955,
+        "match": true
+      },
+      {
+        "trial": 103,
+        "drive": 0,
+        "turn_deg": 24.85970472143953,
+        "match": true
+      },
+      {
+        "trial": 104,
+        "drive": 1,
+        "turn_deg": -25.959684020786725,
+        "match": true
+      },
+      {
+        "trial": 105,
+        "drive": 1,
+        "turn_deg": -24.51132600331711,
+        "match": true
+      },
+      {
+        "trial": 106,
+        "drive": 1,
+        "turn_deg": -20.8063767598926,
+        "match": true
+      },
+      {
+        "trial": 107,
+        "drive": 1,
+        "turn_deg": -23.812063202329593,
+        "match": true
+      },
+      {
+        "trial": 108,
+        "drive": 0,
+        "turn_deg": 24.14898534666087,
+        "match": true
+      },
+      {
+        "trial": 109,
+        "drive": 1,
+        "turn_deg": -25.511401566501217,
+        "match": true
+      },
+      {
+        "trial": 110,
+        "drive": 1,
+        "turn_deg": -24.66870299795232,
+        "match": true
+      },
+      {
+        "trial": 111,
+        "drive": 1,
+        "turn_deg": -21.54682318425731,
+        "match": true
+      },
+      {
+        "trial": 112,
+        "drive": 0,
+        "turn_deg": 22.192835830800586,
+        "match": true
+      },
+      {
+        "trial": 113,
+        "drive": 0,
+        "turn_deg": 26.512026573313353,
+        "match": true
+      },
+      {
+        "trial": 114,
+        "drive": 0,
+        "turn_deg": 25.29667962519552,
+        "match": true
+      },
+      {
+        "trial": 115,
+        "drive": 0,
+        "turn_deg": 22.215609133968226,
+        "match": true
+      },
+      {
+        "trial": 116,
+        "drive": 0,
+        "turn_deg": 23.97674781534128,
+        "match": true
+      },
+      {
+        "trial": 117,
+        "drive": 1,
+        "turn_deg": -22.189405959879274,
+        "match": true
+      },
+      {
+        "trial": 118,
+        "drive": 0,
+        "turn_deg": 23.660056474673176,
+        "match": true
+      },
+      {
+        "trial": 119,
+        "drive": 1,
+        "turn_deg": -22.061384229510868,
+        "match": true
+      },
+      {
+        "trial": 120,
+        "drive": 1,
+        "turn_deg": -22.119403984647573,
+        "match": true
+      },
+      {
+        "trial": 121,
+        "drive": 0,
+        "turn_deg": 22.79894050371828,
+        "match": true
+      },
+      {
+        "trial": 122,
+        "drive": 1,
+        "turn_deg": -22.908806034198452,
+        "match": true
+      },
+      {
+        "trial": 123,
+        "drive": 0,
+        "turn_deg": 23.465681619559614,
+        "match": true
+      },
+      {
+        "trial": 124,
+        "drive": 0,
+        "turn_deg": 21.733683293785656,
+        "match": true
+      },
+      {
+        "trial": 125,
+        "drive": 1,
+        "turn_deg": -20.694448189573063,
+        "match": true
+      },
+      {
+        "trial": 126,
+        "drive": 1,
+        "turn_deg": -24.482644607284627,
+        "match": true
+      },
+      {
+        "trial": 127,
+        "drive": 1,
+        "turn_deg": -25.332230476422342,
+        "match": true
+      },
+      {
+        "trial": 128,
+        "drive": 0,
+        "turn_deg": 26.09848722987799,
+        "match": true
+      },
+      {
+        "trial": 129,
+        "drive": 1,
+        "turn_deg": -25.22638104845545,
+        "match": true
+      },
+      {
+        "trial": 130,
+        "drive": 1,
+        "turn_deg": -21.589222567946106,
+        "match": true
+      },
+      {
+        "trial": 131,
+        "drive": 1,
+        "turn_deg": -23.092682686424727,
+        "match": true
+      },
+      {
+        "trial": 132,
+        "drive": 1,
+        "turn_deg": -26.096436227309212,
+        "match": true
+      },
+      {
+        "trial": 133,
+        "drive": 1,
+        "turn_deg": -22.561470648624347,
+        "match": true
+      },
+      {
+        "trial": 134,
+        "drive": 0,
+        "turn_deg": 24.36367692915525,
+        "match": true
+      },
+      {
+        "trial": 135,
+        "drive": 1,
+        "turn_deg": -22.574069805657565,
+        "match": true
+      },
+      {
+        "trial": 136,
+        "drive": 1,
+        "turn_deg": -21.62846774454667,
+        "match": true
+      },
+      {
+        "trial": 137,
+        "drive": 0,
+        "turn_deg": 22.221424229924885,
+        "match": true
+      },
+      {
+        "trial": 138,
+        "drive": 0,
+        "turn_deg": 23.26409537674086,
+        "match": true
+      },
+      {
+        "trial": 139,
+        "drive": 0,
+        "turn_deg": 26.02061185863543,
+        "match": true
+      },
+      {
+        "trial": 140,
+        "drive": 0,
+        "turn_deg": 24.819261326159538,
+        "match": true
+      },
+      {
+        "trial": 141,
+        "drive": 0,
+        "turn_deg": 21.977483814304627,
+        "match": true
+      },
+      {
+        "trial": 142,
+        "drive": 0,
+        "turn_deg": 24.97980247874964,
+        "match": true
+      },
+      {
+        "trial": 143,
+        "drive": 1,
+        "turn_deg": -22.833557825030994,
+        "match": true
+      },
+      {
+        "trial": 144,
+        "drive": 0,
+        "turn_deg": 24.95439453457843,
+        "match": true
+      }
+    ]
+  }
+}

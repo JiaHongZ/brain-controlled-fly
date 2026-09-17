@@ -1,0 +1,15 @@
+{
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "mne": "1.13.2",
+  "scikit-learn": "1.9.1",
+  "fastapi": "0.141.1",
+  "uvicorn": "0.53.0",
+  "websockets": "15.0.1",
+  "flygym": "2.1.0",
+  "mujoco": "3.9.0",
+  "pandas": "3.0.1",
+  "pyarrow": "25.0.1",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.22631-SP0"
+}

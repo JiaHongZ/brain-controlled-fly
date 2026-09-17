@@ -1,0 +1,11 @@
+{
+  "tested_platform": "Windows / Python 3.12",
+  "listener": "0.0.0.0:8502",
+  "http_readiness": true,
+  "websocket": true,
+  "physics_advances": true,
+  "steering_gain": 2.0,
+  "docker_build_tested": false,
+  "nginx_tested": false,
+  "limitation": "Docker and Nginx executables are not available in this packaging environment."
+}

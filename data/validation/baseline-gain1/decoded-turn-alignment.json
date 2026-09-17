@@ -1,0 +1,866 @@
+[
+  {
+    "trial": 1,
+    "prediction": 0,
+    "turn_deg": 11.12,
+    "match": true
+  },
+  {
+    "trial": 2,
+    "prediction": 1,
+    "turn_deg": -16.99,
+    "match": true
+  },
+  {
+    "trial": 3,
+    "prediction": 0,
+    "turn_deg": 11.33,
+    "match": true
+  },
+  {
+    "trial": 4,
+    "prediction": 0,
+    "turn_deg": 11.11,
+    "match": true
+  },
+  {
+    "trial": 5,
+    "prediction": 0,
+    "turn_deg": 10.76,
+    "match": true
+  },
+  {
+    "trial": 6,
+    "prediction": 0,
+    "turn_deg": 9.42,
+    "match": true
+  },
+  {
+    "trial": 7,
+    "prediction": 0,
+    "turn_deg": 9.87,
+    "match": true
+  },
+  {
+    "trial": 8,
+    "prediction": 1,
+    "turn_deg": -15.55,
+    "match": true
+  },
+  {
+    "trial": 9,
+    "prediction": 0,
+    "turn_deg": 10.1,
+    "match": true
+  },
+  {
+    "trial": 10,
+    "prediction": 1,
+    "turn_deg": -16.67,
+    "match": true
+  },
+  {
+    "trial": 11,
+    "prediction": 0,
+    "turn_deg": 11.11,
+    "match": true
+  },
+  {
+    "trial": 12,
+    "prediction": 0,
+    "turn_deg": 10.43,
+    "match": true
+  },
+  {
+    "trial": 13,
+    "prediction": 1,
+    "turn_deg": -15.5,
+    "match": true
+  },
+  {
+    "trial": 14,
+    "prediction": 0,
+    "turn_deg": 11.19,
+    "match": true
+  },
+  {
+    "trial": 15,
+    "prediction": 0,
+    "turn_deg": 10.58,
+    "match": true
+  },
+  {
+    "trial": 16,
+    "prediction": 0,
+    "turn_deg": 9.49,
+    "match": true
+  },
+  {
+    "trial": 17,
+    "prediction": 0,
+    "turn_deg": 9.72,
+    "match": true
+  },
+  {
+    "trial": 18,
+    "prediction": 1,
+    "turn_deg": -15.67,
+    "match": true
+  },
+  {
+    "trial": 19,
+    "prediction": 0,
+    "turn_deg": 10.16,
+    "match": true
+  },
+  {
+    "trial": 20,
+    "prediction": 1,
+    "turn_deg": -16.0,
+    "match": true
+  },
+  {
+    "trial": 21,
+    "prediction": 1,
+    "turn_deg": -16.23,
+    "match": true
+  },
+  {
+    "trial": 22,
+    "prediction": 0,
+    "turn_deg": 10.13,
+    "match": true
+  },
+  {
+    "trial": 23,
+    "prediction": 1,
+    "turn_deg": -16.58,
+    "match": true
+  },
+  {
+    "trial": 24,
+    "prediction": 0,
+    "turn_deg": 9.86,
+    "match": true
+  },
+  {
+    "trial": 25,
+    "prediction": 0,
+    "turn_deg": 10.01,
+    "match": true
+  },
+  {
+    "trial": 26,
+    "prediction": 0,
+    "turn_deg": 10.73,
+    "match": true
+  },
+  {
+    "trial": 27,
+    "prediction": 0,
+    "turn_deg": 11.48,
+    "match": true
+  },
+  {
+    "trial": 28,
+    "prediction": 1,
+    "turn_deg": -14.83,
+    "match": true
+  },
+  {
+    "trial": 29,
+    "prediction": 1,
+    "turn_deg": -16.39,
+    "match": true
+  },
+  {
+    "trial": 30,
+    "prediction": 0,
+    "turn_deg": 11.11,
+    "match": true
+  },
+  {
+    "trial": 31,
+    "prediction": 0,
+    "turn_deg": 10.3,
+    "match": true
+  },
+  {
+    "trial": 32,
+    "prediction": 0,
+    "turn_deg": 11.09,
+    "match": true
+  },
+  {
+    "trial": 33,
+    "prediction": 1,
+    "turn_deg": -17.22,
+    "match": true
+  },
+  {
+    "trial": 34,
+    "prediction": 0,
+    "turn_deg": 10.03,
+    "match": true
+  },
+  {
+    "trial": 35,
+    "prediction": 0,
+    "turn_deg": 10.73,
+    "match": true
+  },
+  {
+    "trial": 36,
+    "prediction": 0,
+    "turn_deg": 11.15,
+    "match": true
+  },
+  {
+    "trial": 37,
+    "prediction": 0,
+    "turn_deg": 10.47,
+    "match": true
+  },
+  {
+    "trial": 38,
+    "prediction": 1,
+    "turn_deg": -15.09,
+    "match": true
+  },
+  {
+    "trial": 39,
+    "prediction": 0,
+    "turn_deg": 11.39,
+    "match": true
+  },
+  {
+    "trial": 40,
+    "prediction": 0,
+    "turn_deg": 10.97,
+    "match": true
+  },
+  {
+    "trial": 41,
+    "prediction": 0,
+    "turn_deg": 9.95,
+    "match": true
+  },
+  {
+    "trial": 42,
+    "prediction": 0,
+    "turn_deg": 10.12,
+    "match": true
+  },
+  {
+    "trial": 43,
+    "prediction": 1,
+    "turn_deg": -15.56,
+    "match": true
+  },
+  {
+    "trial": 44,
+    "prediction": 0,
+    "turn_deg": 10.2,
+    "match": true
+  },
+  {
+    "trial": 45,
+    "prediction": 0,
+    "turn_deg": 9.73,
+    "match": true
+  },
+  {
+    "trial": 46,
+    "prediction": 0,
+    "turn_deg": 9.9,
+    "match": true
+  },
+  {
+    "trial": 47,
+    "prediction": 0,
+    "turn_deg": 11.39,
+    "match": true
+  },
+  {
+    "trial": 48,
+    "prediction": 0,
+    "turn_deg": 12.31,
+    "match": true
+  },
+  {
+    "trial": 49,
+    "prediction": 0,
+    "turn_deg": 11.34,
+    "match": true
+  },
+  {
+    "trial": 50,
+    "prediction": 1,
+    "turn_deg": -16.2,
+    "match": true
+  },
+  {
+    "trial": 51,
+    "prediction": 0,
+    "turn_deg": 12.07,
+    "match": true
+  },
+  {
+    "trial": 52,
+    "prediction": 0,
+    "turn_deg": 9.93,
+    "match": true
+  },
+  {
+    "trial": 53,
+    "prediction": 0,
+    "turn_deg": 10.49,
+    "match": true
+  },
+  {
+    "trial": 54,
+    "prediction": 0,
+    "turn_deg": 11.19,
+    "match": true
+  },
+  {
+    "trial": 55,
+    "prediction": 0,
+    "turn_deg": 10.87,
+    "match": true
+  },
+  {
+    "trial": 56,
+    "prediction": 0,
+    "turn_deg": 10.11,
+    "match": true
+  },
+  {
+    "trial": 57,
+    "prediction": 1,
+    "turn_deg": -16.88,
+    "match": true
+  },
+  {
+    "trial": 58,
+    "prediction": 0,
+    "turn_deg": 11.18,
+    "match": true
+  },
+  {
+    "trial": 59,
+    "prediction": 1,
+    "turn_deg": -15.21,
+    "match": true
+  },
+  {
+    "trial": 60,
+    "prediction": 0,
+    "turn_deg": 10.58,
+    "match": true
+  },
+  {
+    "trial": 61,
+    "prediction": 0,
+    "turn_deg": 10.9,
+    "match": true
+  },
+  {
+    "trial": 62,
+    "prediction": 0,
+    "turn_deg": 10.4,
+    "match": true
+  },
+  {
+    "trial": 63,
+    "prediction": 0,
+    "turn_deg": 9.44,
+    "match": true
+  },
+  {
+    "trial": 64,
+    "prediction": 0,
+    "turn_deg": 10.0,
+    "match": true
+  },
+  {
+    "trial": 65,
+    "prediction": 1,
+    "turn_deg": -15.78,
+    "match": true
+  },
+  {
+    "trial": 66,
+    "prediction": 0,
+    "turn_deg": 10.0,
+    "match": true
+  },
+  {
+    "trial": 67,
+    "prediction": 1,
+    "turn_deg": -15.32,
+    "match": true
+  },
+  {
+    "trial": 68,
+    "prediction": 0,
+    "turn_deg": 11.34,
+    "match": true
+  },
+  {
+    "trial": 69,
+    "prediction": 0,
+    "turn_deg": 10.5,
+    "match": true
+  },
+  {
+    "trial": 70,
+    "prediction": 0,
+    "turn_deg": 9.4,
+    "match": true
+  },
+  {
+    "trial": 71,
+    "prediction": 1,
+    "turn_deg": -16.64,
+    "match": true
+  },
+  {
+    "trial": 72,
+    "prediction": 0,
+    "turn_deg": 10.69,
+    "match": true
+  },
+  {
+    "trial": 73,
+    "prediction": 0,
+    "turn_deg": 10.23,
+    "match": true
+  },
+  {
+    "trial": 74,
+    "prediction": 0,
+    "turn_deg": 9.65,
+    "match": true
+  },
+  {
+    "trial": 75,
+    "prediction": 0,
+    "turn_deg": 10.06,
+    "match": true
+  },
+  {
+    "trial": 76,
+    "prediction": 0,
+    "turn_deg": 11.86,
+    "match": true
+  },
+  {
+    "trial": 77,
+    "prediction": 1,
+    "turn_deg": -13.95,
+    "match": true
+  },
+  {
+    "trial": 78,
+    "prediction": 0,
+    "turn_deg": 11.04,
+    "match": true
+  },
+  {
+    "trial": 79,
+    "prediction": 0,
+    "turn_deg": 11.82,
+    "match": true
+  },
+  {
+    "trial": 80,
+    "prediction": 1,
+    "turn_deg": -14.63,
+    "match": true
+  },
+  {
+    "trial": 81,
+    "prediction": 0,
+    "turn_deg": 11.65,
+    "match": true
+  },
+  {
+    "trial": 82,
+    "prediction": 1,
+    "turn_deg": -14.57,
+    "match": true
+  },
+  {
+    "trial": 83,
+    "prediction": 0,
+    "turn_deg": 11.96,
+    "match": true
+  },
+  {
+    "trial": 84,
+    "prediction": 1,
+    "turn_deg": -14.35,
+    "match": true
+  },
+  {
+    "trial": 85,
+    "prediction": 0,
+    "turn_deg": 11.1,
+    "match": true
+  },
+  {
+    "trial": 86,
+    "prediction": 1,
+    "turn_deg": -13.87,
+    "match": true
+  },
+  {
+    "trial": 87,
+    "prediction": 0,
+    "turn_deg": 10.66,
+    "match": true
+  },
+  {
+    "trial": 88,
+    "prediction": 0,
+    "turn_deg": 12.04,
+    "match": true
+  },
+  {
+    "trial": 89,
+    "prediction": 0,
+    "turn_deg": 10.9,
+    "match": true
+  },
+  {
+    "trial": 90,
+    "prediction": 0,
+    "turn_deg": 10.17,
+    "match": true
+  },
+  {
+    "trial": 91,
+    "prediction": 1,
+    "turn_deg": -16.11,
+    "match": true
+  },
+  {
+    "trial": 92,
+    "prediction": 0,
+    "turn_deg": 11.92,
+    "match": true
+  },
+  {
+    "trial": 93,
+    "prediction": 0,
+    "turn_deg": 10.11,
+    "match": true
+  },
+  {
+    "trial": 94,
+    "prediction": 0,
+    "turn_deg": 11.15,
+    "match": true
+  },
+  {
+    "trial": 95,
+    "prediction": 1,
+    "turn_deg": -16.25,
+    "match": true
+  },
+  {
+    "trial": 96,
+    "prediction": 0,
+    "turn_deg": 10.42,
+    "match": true
+  },
+  {
+    "trial": 97,
+    "prediction": 1,
+    "turn_deg": -16.68,
+    "match": true
+  },
+  {
+    "trial": 98,
+    "prediction": 0,
+    "turn_deg": 10.57,
+    "match": true
+  },
+  {
+    "trial": 99,
+    "prediction": 0,
+    "turn_deg": 10.08,
+    "match": true
+  },
+  {
+    "trial": 100,
+    "prediction": 0,
+    "turn_deg": 11.06,
+    "match": true
+  },
+  {
+    "trial": 101,
+    "prediction": 0,
+    "turn_deg": 11.4,
+    "match": true
+  },
+  {
+    "trial": 102,
+    "prediction": 0,
+    "turn_deg": 10.31,
+    "match": true
+  },
+  {
+    "trial": 103,
+    "prediction": 1,
+    "turn_deg": -15.96,
+    "match": true
+  },
+  {
+    "trial": 104,
+    "prediction": 0,
+    "turn_deg": 11.27,
+    "match": true
+  },
+  {
+    "trial": 105,
+    "prediction": 1,
+    "turn_deg": -15.59,
+    "match": true
+  },
+  {
+    "trial": 106,
+    "prediction": 1,
+    "turn_deg": -16.44,
+    "match": true
+  },
+  {
+    "trial": 107,
+    "prediction": 1,
+    "turn_deg": -14.87,
+    "match": true
+  },
+  {
+    "trial": 108,
+    "prediction": 0,
+    "turn_deg": 12.31,
+    "match": true
+  },
+  {
+    "trial": 109,
+    "prediction": 1,
+    "turn_deg": -14.59,
+    "match": true
+  },
+  {
+    "trial": 110,
+    "prediction": 0,
+    "turn_deg": 11.57,
+    "match": true
+  },
+  {
+    "trial": 111,
+    "prediction": 0,
+    "turn_deg": 12.13,
+    "match": true
+  },
+  {
+    "trial": 112,
+    "prediction": 0,
+    "turn_deg": 10.56,
+    "match": true
+  },
+  {
+    "trial": 113,
+    "prediction": 0,
+    "turn_deg": 10.21,
+    "match": true
+  },
+  {
+    "trial": 114,
+    "prediction": 0,
+    "turn_deg": 11.1,
+    "match": true
+  },
+  {
+    "trial": 115,
+    "prediction": 0,
+    "turn_deg": 11.09,
+    "match": true
+  },
+  {
+    "trial": 116,
+    "prediction": 1,
+    "turn_deg": -15.22,
+    "match": true
+  },
+  {
+    "trial": 117,
+    "prediction": 1,
+    "turn_deg": -15.86,
+    "match": true
+  },
+  {
+    "trial": 118,
+    "prediction": 0,
+    "turn_deg": 10.9,
+    "match": true
+  },
+  {
+    "trial": 119,
+    "prediction": 1,
+    "turn_deg": -16.59,
+    "match": true
+  },
+  {
+    "trial": 120,
+    "prediction": 0,
+    "turn_deg": 10.99,
+    "match": true
+  },
+  {
+    "trial": 121,
+    "prediction": 0,
+    "turn_deg": 10.13,
+    "match": true
+  },
+  {
+    "trial": 122,
+    "prediction": 0,
+    "turn_deg": 10.31,
+    "match": true
+  },
+  {
+    "trial": 123,
+    "prediction": 0,
+    "turn_deg": 10.8,
+    "match": true
+  },
+  {
+    "trial": 124,
+    "prediction": 0,
+    "turn_deg": 10.71,
+    "match": true
+  },
+  {
+    "trial": 125,
+    "prediction": 0,
+    "turn_deg": 9.99,
+    "match": true
+  },
+  {
+    "trial": 126,
+    "prediction": 1,
+    "turn_deg": -15.31,
+    "match": true
+  },
+  {
+    "trial": 127,
+    "prediction": 0,
+    "turn_deg": 11.26,
+    "match": true
+  },
+  {
+    "trial": 128,
+    "prediction": 0,
+    "turn_deg": 10.01,
+    "match": true
+  },
+  {
+    "trial": 129,
+    "prediction": 1,
+    "turn_deg": -16.07,
+    "match": true
+  },
+  {
+    "trial": 130,
+    "prediction": 1,
+    "turn_deg": -16.37,
+    "match": true
+  },
+  {
+    "trial": 131,
+    "prediction": 1,
+    "turn_deg": -15.77,
+    "match": true
+  },
+  {
+    "trial": 132,
+    "prediction": 0,
+    "turn_deg": 12.82,
+    "match": true
+  },
+  {
+    "trial": 133,
+    "prediction": 1,
+    "turn_deg": -15.58,
+    "match": true
+  },
+  {
+    "trial": 134,
+    "prediction": 0,
+    "turn_deg": 11.89,
+    "match": true
+  },
+  {
+    "trial": 135,
+    "prediction": 0,
+    "turn_deg": 11.6,
+    "match": true
+  },
+  {
+    "trial": 136,
+    "prediction": 0,
+    "turn_deg": 10.54,
+    "match": true
+  },
+  {
+    "trial": 137,
+    "prediction": 0,
+    "turn_deg": 11.01,
+    "match": true
+  },
+  {
+    "trial": 138,
+    "prediction": 0,
+    "turn_deg": 11.12,
+    "match": true
+  },
+  {
+    "trial": 139,
+    "prediction": 0,
+    "turn_deg": 10.6,
+    "match": true
+  },
+  {
+    "trial": 140,
+    "prediction": 0,
+    "turn_deg": 9.48,
+    "match": true
+  },
+  {
+    "trial": 141,
+    "prediction": 0,
+    "turn_deg": 9.91,
+    "match": true
+  },
+  {
+    "trial": 142,
+    "prediction": 0,
+    "turn_deg": 11.15,
+    "match": true
+  },
+  {
+    "trial": 143,
+    "prediction": 1,
+    "turn_deg": -13.69,
+    "match": true
+  },
+  {
+    "trial": 144,
+    "prediction": 0,
+    "turn_deg": 10.2,
+    "match": true
+  }
+]

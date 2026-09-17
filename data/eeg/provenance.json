@@ -1,0 +1,13 @@
+{
+  "dataset": "BNCI2014_001 / BCI Competition IV 2a",
+  "subject": "A01",
+  "source": "https://lampx.tugraz.at/~bci/database/001-2014/",
+  "training": "A01T",
+  "evaluation": "A01E",
+  "sampling_rate": 250,
+  "epoch": "2\u20136 s after trial onset (0\u20134 s after MI cue)",
+  "files": {
+    "A01T.mat": "054f02e70cf9c4ada1517e9b9864f45407939c1062c6793516585c6f511d0325",
+    "A01E.mat": "53d415f39c3d7b0c88b894d7b08d99bcdfe855ede63831d3691af1a45607fb62"
+  }
+}

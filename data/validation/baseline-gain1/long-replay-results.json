@@ -1,0 +1,2624 @@
+{
+  "truth": {
+    "steps": 14400,
+    "sequence": 144,
+    "trial": 0,
+    "error": null,
+    "minimum_upright": 0.9846075566148571,
+    "final_position": [
+      44.432065,
+      -190.547508,
+      1.132051
+    ],
+    "physics_seconds": 72.0,
+    "events": [
+      {
+        "trial": 1,
+        "command": "LEFT",
+        "time": 4.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 22.147053400270494,
+        "lesion": false
+      },
+      {
+        "trial": 2,
+        "command": "RIGHT",
+        "time": 9.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 13.108447052511073,
+        "lesion": false
+      },
+      {
+        "trial": 3,
+        "command": "RIGHT",
+        "time": 14.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -5.447844146420825,
+        "lesion": false
+      },
+      {
+        "trial": 4,
+        "command": "LEFT",
+        "time": 19.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -6.310496705784193,
+        "lesion": false
+      },
+      {
+        "trial": 5,
+        "command": "RIGHT",
+        "time": 24.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -13.37568738919492,
+        "lesion": false
+      },
+      {
+        "trial": 6,
+        "command": "LEFT",
+        "time": 29.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -12.364054009582215,
+        "lesion": false
+      },
+      {
+        "trial": 7,
+        "command": "RIGHT",
+        "time": 34.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -20.03217939091145,
+        "lesion": false
+      },
+      {
+        "trial": 8,
+        "command": "RIGHT",
+        "time": 39.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -35.06785050214594,
+        "lesion": false
+      },
+      {
+        "trial": 9,
+        "command": "LEFT",
+        "time": 44.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -35.533882165348764,
+        "lesion": false
+      },
+      {
+        "trial": 10,
+        "command": "RIGHT",
+        "time": 49.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -40.149526915391164,
+        "lesion": false
+      },
+      {
+        "trial": 11,
+        "command": "LEFT",
+        "time": 54.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -42.69004598913809,
+        "lesion": false
+      },
+      {
+        "trial": 12,
+        "command": "LEFT",
+        "time": 59.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -31.73404475144348,
+        "lesion": false
+      },
+      {
+        "trial": 13,
+        "command": "RIGHT",
+        "time": 64.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -35.86979090970199,
+        "lesion": false
+      },
+      {
+        "trial": 14,
+        "command": "LEFT",
+        "time": 69.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -36.45711657845295,
+        "lesion": false
+      },
+      {
+        "trial": 15,
+        "command": "LEFT",
+        "time": 74.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -24.16698751693965,
+        "lesion": false
+      },
+      {
+        "trial": 16,
+        "command": "LEFT",
+        "time": 79.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -12.113485934187429,
+        "lesion": false
+      },
+      {
+        "trial": 17,
+        "command": "LEFT",
+        "time": 84.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -2.50286119222291,
+        "lesion": false
+      },
+      {
+        "trial": 18,
+        "command": "RIGHT",
+        "time": 89.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -9.432679770687349,
+        "lesion": false
+      },
+      {
+        "trial": 19,
+        "command": "LEFT",
+        "time": 94.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -9.685874157852888,
+        "lesion": false
+      },
+      {
+        "trial": 20,
+        "command": "RIGHT",
+        "time": 99.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -18.12859688409115,
+        "lesion": false
+      },
+      {
+        "trial": 21,
+        "command": "RIGHT",
+        "time": 104.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -33.58168171718947,
+        "lesion": false
+      },
+      {
+        "trial": 22,
+        "command": "LEFT",
+        "time": 109.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -33.338770654329934,
+        "lesion": false
+      },
+      {
+        "trial": 23,
+        "command": "RIGHT",
+        "time": 114.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -37.686964634308914,
+        "lesion": false
+      },
+      {
+        "trial": 24,
+        "command": "RIGHT",
+        "time": 119.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -55.97460287670173,
+        "lesion": false
+      },
+      {
+        "trial": 25,
+        "command": "RIGHT",
+        "time": 124.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -75.74187928802299,
+        "lesion": false
+      },
+      {
+        "trial": 26,
+        "command": "LEFT",
+        "time": 129.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -77.47643663156234,
+        "lesion": false
+      },
+      {
+        "trial": 27,
+        "command": "LEFT",
+        "time": 134.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -67.449840155645,
+        "lesion": false
+      },
+      {
+        "trial": 28,
+        "command": "RIGHT",
+        "time": 139.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -76.0574277303384,
+        "lesion": false
+      },
+      {
+        "trial": 29,
+        "command": "RIGHT",
+        "time": 144.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -95.40291121047318,
+        "lesion": false
+      },
+      {
+        "trial": 30,
+        "command": "LEFT",
+        "time": 149.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -96.57840489196461,
+        "lesion": false
+      },
+      {
+        "trial": 31,
+        "command": "LEFT",
+        "time": 154.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -87.41675306120328,
+        "lesion": false
+      },
+      {
+        "trial": 32,
+        "command": "LEFT",
+        "time": 159.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -77.39158475068484,
+        "lesion": false
+      },
+      {
+        "trial": 33,
+        "command": "RIGHT",
+        "time": 164.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -86.19474904748888,
+        "lesion": false
+      },
+      {
+        "trial": 34,
+        "command": "RIGHT",
+        "time": 169.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -105.67101424702268,
+        "lesion": false
+      },
+      {
+        "trial": 35,
+        "command": "LEFT",
+        "time": 174.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -104.232356579577,
+        "lesion": false
+      },
+      {
+        "trial": 36,
+        "command": "LEFT",
+        "time": 179.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -92.64391007048246,
+        "lesion": false
+      },
+      {
+        "trial": 37,
+        "command": "LEFT",
+        "time": 184.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -82.87358718677213,
+        "lesion": false
+      },
+      {
+        "trial": 38,
+        "command": "RIGHT",
+        "time": 189.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -90.95589374062021,
+        "lesion": false
+      },
+      {
+        "trial": 39,
+        "command": "LEFT",
+        "time": 194.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -92.52578077071607,
+        "lesion": false
+      },
+      {
+        "trial": 40,
+        "command": "RIGHT",
+        "time": 199.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -100.80175289193794,
+        "lesion": false
+      },
+      {
+        "trial": 41,
+        "command": "RIGHT",
+        "time": 204.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -117.83013306524016,
+        "lesion": false
+      },
+      {
+        "trial": 42,
+        "command": "LEFT",
+        "time": 209.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -115.48410812924485,
+        "lesion": false
+      },
+      {
+        "trial": 43,
+        "command": "RIGHT",
+        "time": 214.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -120.2291596513633,
+        "lesion": false
+      },
+      {
+        "trial": 44,
+        "command": "LEFT",
+        "time": 219.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -118.48528864139959,
+        "lesion": false
+      },
+      {
+        "trial": 45,
+        "command": "RIGHT",
+        "time": 224.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -123.18001760992827,
+        "lesion": false
+      },
+      {
+        "trial": 46,
+        "command": "RIGHT",
+        "time": 229.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -140.02064859729487,
+        "lesion": false
+      },
+      {
+        "trial": 47,
+        "command": "RIGHT",
+        "time": 234.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -160.22567253298794,
+        "lesion": false
+      },
+      {
+        "trial": 48,
+        "command": "LEFT",
+        "time": 239.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -161.8755786033687,
+        "lesion": false
+      },
+      {
+        "trial": 49,
+        "command": "LEFT",
+        "time": 244.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -153.36409591528658,
+        "lesion": false
+      },
+      {
+        "trial": 50,
+        "command": "LEFT",
+        "time": 249.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -145.4392077925966,
+        "lesion": false
+      },
+      {
+        "trial": 51,
+        "command": "RIGHT",
+        "time": 254.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -153.53847906846673,
+        "lesion": false
+      },
+      {
+        "trial": 52,
+        "command": "LEFT",
+        "time": 259.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -155.94278852187807,
+        "lesion": false
+      },
+      {
+        "trial": 53,
+        "command": "LEFT",
+        "time": 264.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -148.07156344668655,
+        "lesion": false
+      },
+      {
+        "trial": 54,
+        "command": "RIGHT",
+        "time": 269.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -156.39357989626896,
+        "lesion": false
+      },
+      {
+        "trial": 55,
+        "command": "LEFT",
+        "time": 274.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -158.78330815677126,
+        "lesion": false
+      },
+      {
+        "trial": 56,
+        "command": "LEFT",
+        "time": 279.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -149.97305095297025,
+        "lesion": false
+      },
+      {
+        "trial": 57,
+        "command": "RIGHT",
+        "time": 284.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -158.0415909443379,
+        "lesion": false
+      },
+      {
+        "trial": 58,
+        "command": "LEFT",
+        "time": 289.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -159.69733700465179,
+        "lesion": false
+      },
+      {
+        "trial": 59,
+        "command": "RIGHT",
+        "time": 294.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -167.2948855984883,
+        "lesion": false
+      },
+      {
+        "trial": 60,
+        "command": "RIGHT",
+        "time": 299.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 172.83886925194972,
+        "lesion": false
+      },
+      {
+        "trial": 61,
+        "command": "LEFT",
+        "time": 304.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 172.19336890059543,
+        "lesion": false
+      },
+      {
+        "trial": 62,
+        "command": "RIGHT",
+        "time": 309.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 165.58583973786264,
+        "lesion": false
+      },
+      {
+        "trial": 63,
+        "command": "LEFT",
+        "time": 314.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 165.8129221205111,
+        "lesion": false
+      },
+      {
+        "trial": 64,
+        "command": "LEFT",
+        "time": 319.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 176.78682106628148,
+        "lesion": false
+      },
+      {
+        "trial": 65,
+        "command": "RIGHT",
+        "time": 324.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 169.36983229772557,
+        "lesion": false
+      },
+      {
+        "trial": 66,
+        "command": "LEFT",
+        "time": 329.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 170.0152448005391,
+        "lesion": false
+      },
+      {
+        "trial": 67,
+        "command": "RIGHT",
+        "time": 334.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 162.63796110648715,
+        "lesion": false
+      },
+      {
+        "trial": 68,
+        "command": "RIGHT",
+        "time": 339.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 147.41939229464487,
+        "lesion": false
+      },
+      {
+        "trial": 69,
+        "command": "RIGHT",
+        "time": 344.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 130.50608796217415,
+        "lesion": false
+      },
+      {
+        "trial": 70,
+        "command": "RIGHT",
+        "time": 349.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 110.00765504765263,
+        "lesion": false
+      },
+      {
+        "trial": 71,
+        "command": "RIGHT",
+        "time": 354.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 90.23091121471175,
+        "lesion": false
+      },
+      {
+        "trial": 72,
+        "command": "LEFT",
+        "time": 359.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 88.7817587962649,
+        "lesion": false
+      },
+      {
+        "trial": 73,
+        "command": "RIGHT",
+        "time": 364.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 81.33445227898746,
+        "lesion": false
+      },
+      {
+        "trial": 74,
+        "command": "LEFT",
+        "time": 369.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 80.7436568750962,
+        "lesion": false
+      },
+      {
+        "trial": 75,
+        "command": "LEFT",
+        "time": 374.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 90.0604562829432,
+        "lesion": false
+      },
+      {
+        "trial": 76,
+        "command": "LEFT",
+        "time": 379.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 99.70151406433503,
+        "lesion": false
+      },
+      {
+        "trial": 77,
+        "command": "RIGHT",
+        "time": 384.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 90.98902536711628,
+        "lesion": false
+      },
+      {
+        "trial": 78,
+        "command": "RIGHT",
+        "time": 389.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 72.2348148915109,
+        "lesion": false
+      },
+      {
+        "trial": 79,
+        "command": "LEFT",
+        "time": 394.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 73.8823291742194,
+        "lesion": false
+      },
+      {
+        "trial": 80,
+        "command": "RIGHT",
+        "time": 399.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 67.90853005245896,
+        "lesion": false
+      },
+      {
+        "trial": 81,
+        "command": "LEFT",
+        "time": 404.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 70.0860839653921,
+        "lesion": false
+      },
+      {
+        "trial": 82,
+        "command": "RIGHT",
+        "time": 409.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 63.57261135835812,
+        "lesion": false
+      },
+      {
+        "trial": 83,
+        "command": "LEFT",
+        "time": 414.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 66.41813145773395,
+        "lesion": false
+      },
+      {
+        "trial": 84,
+        "command": "RIGHT",
+        "time": 419.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 61.26414592381694,
+        "lesion": false
+      },
+      {
+        "trial": 85,
+        "command": "RIGHT",
+        "time": 424.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 46.002150486556395,
+        "lesion": false
+      },
+      {
+        "trial": 86,
+        "command": "RIGHT",
+        "time": 429.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 25.4564421115668,
+        "lesion": false
+      },
+      {
+        "trial": 87,
+        "command": "LEFT",
+        "time": 434.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 22.170728886151394,
+        "lesion": false
+      },
+      {
+        "trial": 88,
+        "command": "LEFT",
+        "time": 439.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 30.289079552764267,
+        "lesion": false
+      },
+      {
+        "trial": 89,
+        "command": "RIGHT",
+        "time": 444.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 21.860053825813434,
+        "lesion": false
+      },
+      {
+        "trial": 90,
+        "command": "LEFT",
+        "time": 449.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 20.00899358748932,
+        "lesion": false
+      },
+      {
+        "trial": 91,
+        "command": "RIGHT",
+        "time": 454.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 10.076573388083013,
+        "lesion": false
+      },
+      {
+        "trial": 92,
+        "command": "RIGHT",
+        "time": 459.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -9.194871071951598,
+        "lesion": false
+      },
+      {
+        "trial": 93,
+        "command": "LEFT",
+        "time": 464.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -9.080197176729602,
+        "lesion": false
+      },
+      {
+        "trial": 94,
+        "command": "LEFT",
+        "time": 469.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 0.6882728134965733,
+        "lesion": false
+      },
+      {
+        "trial": 95,
+        "command": "RIGHT",
+        "time": 474.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -6.980276188976902,
+        "lesion": false
+      },
+      {
+        "trial": 96,
+        "command": "LEFT",
+        "time": 479.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -7.749085105650622,
+        "lesion": false
+      },
+      {
+        "trial": 97,
+        "command": "RIGHT",
+        "time": 484.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -16.26263927778758,
+        "lesion": false
+      },
+      {
+        "trial": 98,
+        "command": "LEFT",
+        "time": 489.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -15.081681780827315,
+        "lesion": false
+      },
+      {
+        "trial": 99,
+        "command": "LEFT",
+        "time": 494.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -4.480118450238782,
+        "lesion": false
+      },
+      {
+        "trial": 100,
+        "command": "RIGHT",
+        "time": 499.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -11.043553256259084,
+        "lesion": false
+      },
+      {
+        "trial": 101,
+        "command": "LEFT",
+        "time": 504.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -11.315781204487335,
+        "lesion": false
+      },
+      {
+        "trial": 102,
+        "command": "LEFT",
+        "time": 509.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -2.386739120799059,
+        "lesion": false
+      },
+      {
+        "trial": 103,
+        "command": "LEFT",
+        "time": 514.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 8.381286031420453,
+        "lesion": false
+      },
+      {
+        "trial": 104,
+        "command": "RIGHT",
+        "time": 519.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -0.2464794521393055,
+        "lesion": false
+      },
+      {
+        "trial": 105,
+        "command": "RIGHT",
+        "time": 524.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -18.664892048541244,
+        "lesion": false
+      },
+      {
+        "trial": 106,
+        "command": "RIGHT",
+        "time": 529.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -34.10771473240502,
+        "lesion": false
+      },
+      {
+        "trial": 107,
+        "command": "RIGHT",
+        "time": 534.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -51.72882723960769,
+        "lesion": false
+      },
+      {
+        "trial": 108,
+        "command": "LEFT",
+        "time": 539.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -56.32743018605971,
+        "lesion": false
+      },
+      {
+        "trial": 109,
+        "command": "RIGHT",
+        "time": 544.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -66.03803508929091,
+        "lesion": false
+      },
+      {
+        "trial": 110,
+        "command": "RIGHT",
+        "time": 549.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -85.24840223176828,
+        "lesion": false
+      },
+      {
+        "trial": 111,
+        "command": "RIGHT",
+        "time": 554.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -104.17040123544454,
+        "lesion": false
+      },
+      {
+        "trial": 112,
+        "command": "LEFT",
+        "time": 559.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -103.60048751451588,
+        "lesion": false
+      },
+      {
+        "trial": 113,
+        "command": "LEFT",
+        "time": 564.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -93.08213475043915,
+        "lesion": false
+      },
+      {
+        "trial": 114,
+        "command": "LEFT",
+        "time": 569.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -82.69813632394296,
+        "lesion": false
+      },
+      {
+        "trial": 115,
+        "command": "LEFT",
+        "time": 574.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -72.58788795628918,
+        "lesion": false
+      },
+      {
+        "trial": 116,
+        "command": "LEFT",
+        "time": 579.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -64.16290086141917,
+        "lesion": false
+      },
+      {
+        "trial": 117,
+        "command": "RIGHT",
+        "time": 584.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -71.73887699434952,
+        "lesion": false
+      },
+      {
+        "trial": 118,
+        "command": "LEFT",
+        "time": 589.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -73.68290368345038,
+        "lesion": false
+      },
+      {
+        "trial": 119,
+        "command": "RIGHT",
+        "time": 594.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -80.91345460129158,
+        "lesion": false
+      },
+      {
+        "trial": 120,
+        "command": "RIGHT",
+        "time": 599.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -99.27490118689812,
+        "lesion": false
+      },
+      {
+        "trial": 121,
+        "command": "LEFT",
+        "time": 604.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -99.50505853421393,
+        "lesion": false
+      },
+      {
+        "trial": 122,
+        "command": "RIGHT",
+        "time": 609.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -105.35545196561796,
+        "lesion": false
+      },
+      {
+        "trial": 123,
+        "command": "LEFT",
+        "time": 614.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -104.3735982914995,
+        "lesion": false
+      },
+      {
+        "trial": 124,
+        "command": "LEFT",
+        "time": 619.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -92.98621929448136,
+        "lesion": false
+      },
+      {
+        "trial": 125,
+        "command": "RIGHT",
+        "time": 624.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -101.03276313283591,
+        "lesion": false
+      },
+      {
+        "trial": 126,
+        "command": "RIGHT",
+        "time": 629.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -118.19099602142907,
+        "lesion": false
+      },
+      {
+        "trial": 127,
+        "command": "RIGHT",
+        "time": 634.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -133.38695560626786,
+        "lesion": false
+      },
+      {
+        "trial": 128,
+        "command": "LEFT",
+        "time": 639.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -137.0447560223387,
+        "lesion": false
+      },
+      {
+        "trial": 129,
+        "command": "RIGHT",
+        "time": 644.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -144.13865279290405,
+        "lesion": false
+      },
+      {
+        "trial": 130,
+        "command": "RIGHT",
+        "time": 649.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -164.52846226512312,
+        "lesion": false
+      },
+      {
+        "trial": 131,
+        "command": "RIGHT",
+        "time": 654.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 176.19276728333773,
+        "lesion": false
+      },
+      {
+        "trial": 132,
+        "command": "RIGHT",
+        "time": 659.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 158.25521400848658,
+        "lesion": false
+      },
+      {
+        "trial": 133,
+        "command": "RIGHT",
+        "time": 664.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 143.16128367060884,
+        "lesion": false
+      },
+      {
+        "trial": 134,
+        "command": "LEFT",
+        "time": 669.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 141.71826336278363,
+        "lesion": false
+      },
+      {
+        "trial": 135,
+        "command": "RIGHT",
+        "time": 674.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 136.62900491754704,
+        "lesion": false
+      },
+      {
+        "trial": 136,
+        "command": "RIGHT",
+        "time": 679.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 116.78486229256714,
+        "lesion": false
+      },
+      {
+        "trial": 137,
+        "command": "LEFT",
+        "time": 684.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 113.8034963981693,
+        "lesion": false
+      },
+      {
+        "trial": 138,
+        "command": "LEFT",
+        "time": 689.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 121.74353827691476,
+        "lesion": false
+      },
+      {
+        "trial": 139,
+        "command": "LEFT",
+        "time": 694.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 129.11952331499035,
+        "lesion": false
+      },
+      {
+        "trial": 140,
+        "command": "LEFT",
+        "time": 699.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 137.9106597492321,
+        "lesion": false
+      },
+      {
+        "trial": 141,
+        "command": "LEFT",
+        "time": 704.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 148.82680984069387,
+        "lesion": false
+      },
+      {
+        "trial": 142,
+        "command": "LEFT",
+        "time": 709.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 161.85270863348217,
+        "lesion": false
+      },
+      {
+        "trial": 143,
+        "command": "RIGHT",
+        "time": 714.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 155.6868391919173,
+        "lesion": false
+      },
+      {
+        "trial": 144,
+        "command": "LEFT",
+        "time": 719.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 158.33695182969404,
+        "lesion": false
+      }
+    ]
+  },
+  "decoded": {
+    "steps": 14400,
+    "sequence": 144,
+    "trial": 0,
+    "error": null,
+    "minimum_upright": 0.9846742763119407,
+    "final_position": [
+      -178.542843,
+      281.726889,
+      1.127639
+    ],
+    "physics_seconds": 72.0,
+    "events": [
+      {
+        "trial": 1,
+        "command": "LEFT",
+        "time": 4.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 22.147053400270494,
+        "lesion": false
+      },
+      {
+        "trial": 2,
+        "command": "RIGHT",
+        "time": 9.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 13.108447052511073,
+        "lesion": false
+      },
+      {
+        "trial": 3,
+        "command": "LEFT",
+        "time": 14.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 11.423926008039098,
+        "lesion": false
+      },
+      {
+        "trial": 4,
+        "command": "LEFT",
+        "time": 19.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 21.591090585424247,
+        "lesion": false
+      },
+      {
+        "trial": 5,
+        "command": "LEFT",
+        "time": 24.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 30.39178637314943,
+        "lesion": false
+      },
+      {
+        "trial": 6,
+        "command": "LEFT",
+        "time": 29.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 37.854845699281036,
+        "lesion": false
+      },
+      {
+        "trial": 7,
+        "command": "LEFT",
+        "time": 34.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 45.27875695933368,
+        "lesion": false
+      },
+      {
+        "trial": 8,
+        "command": "RIGHT",
+        "time": 39.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 38.67634220837126,
+        "lesion": false
+      },
+      {
+        "trial": 9,
+        "command": "LEFT",
+        "time": 44.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 33.9142364406,
+        "lesion": false
+      },
+      {
+        "trial": 10,
+        "command": "RIGHT",
+        "time": 49.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 24.5105036360248,
+        "lesion": false
+      },
+      {
+        "trial": 11,
+        "command": "LEFT",
+        "time": 54.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 21.59779483283344,
+        "lesion": false
+      },
+      {
+        "trial": 12,
+        "command": "LEFT",
+        "time": 59.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 30.245590034693826,
+        "lesion": false
+      },
+      {
+        "trial": 13,
+        "command": "RIGHT",
+        "time": 64.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 21.752923998079105,
+        "lesion": false
+      },
+      {
+        "trial": 14,
+        "command": "LEFT",
+        "time": 69.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 19.782423515880097,
+        "lesion": false
+      },
+      {
+        "trial": 15,
+        "command": "LEFT",
+        "time": 74.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 28.29515732718298,
+        "lesion": false
+      },
+      {
+        "trial": 16,
+        "command": "LEFT",
+        "time": 79.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 36.02279589736849,
+        "lesion": false
+      },
+      {
+        "trial": 17,
+        "command": "LEFT",
+        "time": 84.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 42.93018618614261,
+        "lesion": false
+      },
+      {
+        "trial": 18,
+        "command": "RIGHT",
+        "time": 89.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 35.848588883126084,
+        "lesion": false
+      },
+      {
+        "trial": 19,
+        "command": "LEFT",
+        "time": 94.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 31.643924678847092,
+        "lesion": false
+      },
+      {
+        "trial": 20,
+        "command": "RIGHT",
+        "time": 99.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 22.80627224011015,
+        "lesion": false
+      },
+      {
+        "trial": 21,
+        "command": "RIGHT",
+        "time": 104.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 2.849433907313679,
+        "lesion": false
+      },
+      {
+        "trial": 22,
+        "command": "LEFT",
+        "time": 109.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 1.3311099776666147,
+        "lesion": false
+      },
+      {
+        "trial": 23,
+        "command": "RIGHT",
+        "time": 114.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -6.8116075182382385,
+        "lesion": false
+      },
+      {
+        "trial": 24,
+        "command": "LEFT",
+        "time": 119.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -7.811395308452932,
+        "lesion": false
+      },
+      {
+        "trial": 25,
+        "command": "LEFT",
+        "time": 124.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 1.3597316600548015,
+        "lesion": false
+      },
+      {
+        "trial": 26,
+        "command": "LEFT",
+        "time": 129.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 10.752103185608453,
+        "lesion": false
+      },
+      {
+        "trial": 27,
+        "command": "LEFT",
+        "time": 134.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 20.28061197544202,
+        "lesion": false
+      },
+      {
+        "trial": 28,
+        "command": "RIGHT",
+        "time": 139.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 13.046069079070667,
+        "lesion": false
+      },
+      {
+        "trial": 29,
+        "command": "RIGHT",
+        "time": 144.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -6.395100935621665,
+        "lesion": false
+      },
+      {
+        "trial": 30,
+        "command": "LEFT",
+        "time": 149.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -6.994483286791589,
+        "lesion": false
+      },
+      {
+        "trial": 31,
+        "command": "LEFT",
+        "time": 154.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 3.1252653993975765,
+        "lesion": false
+      },
+      {
+        "trial": 32,
+        "command": "LEFT",
+        "time": 159.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 12.480244526397573,
+        "lesion": false
+      },
+      {
+        "trial": 33,
+        "command": "RIGHT",
+        "time": 164.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 3.7042296541723227,
+        "lesion": false
+      },
+      {
+        "trial": 34,
+        "command": "LEFT",
+        "time": 169.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 1.7720648871294329,
+        "lesion": false
+      },
+      {
+        "trial": 35,
+        "command": "LEFT",
+        "time": 174.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 10.549928224765333,
+        "lesion": false
+      },
+      {
+        "trial": 36,
+        "command": "LEFT",
+        "time": 179.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 20.55478090823364,
+        "lesion": false
+      },
+      {
+        "trial": 37,
+        "command": "LEFT",
+        "time": 184.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 28.976595404604282,
+        "lesion": false
+      },
+      {
+        "trial": 38,
+        "command": "RIGHT",
+        "time": 189.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 20.925305536991953,
+        "lesion": false
+      },
+      {
+        "trial": 39,
+        "command": "LEFT",
+        "time": 194.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 19.395397707517436,
+        "lesion": false
+      },
+      {
+        "trial": 40,
+        "command": "LEFT",
+        "time": 199.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 28.290761655863058,
+        "lesion": false
+      },
+      {
+        "trial": 41,
+        "command": "LEFT",
+        "time": 204.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 35.83531746610663,
+        "lesion": false
+      },
+      {
+        "trial": 42,
+        "command": "LEFT",
+        "time": 209.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 43.62354971352407,
+        "lesion": false
+      },
+      {
+        "trial": 43,
+        "command": "RIGHT",
+        "time": 214.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 36.56486989849,
+        "lesion": false
+      },
+      {
+        "trial": 44,
+        "command": "LEFT",
+        "time": 219.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 32.15517245999123,
+        "lesion": false
+      },
+      {
+        "trial": 45,
+        "command": "LEFT",
+        "time": 224.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 39.28503161236236,
+        "lesion": false
+      },
+      {
+        "trial": 46,
+        "command": "LEFT",
+        "time": 229.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 47.88696055373236,
+        "lesion": false
+      },
+      {
+        "trial": 47,
+        "command": "LEFT",
+        "time": 234.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 59.04505007055826,
+        "lesion": false
+      },
+      {
+        "trial": 48,
+        "command": "LEFT",
+        "time": 239.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 72.483976696117,
+        "lesion": false
+      },
+      {
+        "trial": 49,
+        "command": "LEFT",
+        "time": 244.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 83.10804605383446,
+        "lesion": false
+      },
+      {
+        "trial": 50,
+        "command": "RIGHT",
+        "time": 249.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 75.71918532344219,
+        "lesion": false
+      },
+      {
+        "trial": 51,
+        "command": "LEFT",
+        "time": 254.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 76.185599095062,
+        "lesion": false
+      },
+      {
+        "trial": 52,
+        "command": "LEFT",
+        "time": 259.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 86.91106427378155,
+        "lesion": false
+      },
+      {
+        "trial": 53,
+        "command": "LEFT",
+        "time": 264.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 96.1744593090607,
+        "lesion": false
+      },
+      {
+        "trial": 54,
+        "command": "LEFT",
+        "time": 269.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 105.74605838312468,
+        "lesion": false
+      },
+      {
+        "trial": 55,
+        "command": "LEFT",
+        "time": 274.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 114.483157543466,
+        "lesion": false
+      },
+      {
+        "trial": 56,
+        "command": "LEFT",
+        "time": 279.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 122.74375164225488,
+        "lesion": false
+      },
+      {
+        "trial": 57,
+        "command": "RIGHT",
+        "time": 284.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 112.80094349596865,
+        "lesion": false
+      },
+      {
+        "trial": 58,
+        "command": "LEFT",
+        "time": 289.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 110.52697031221066,
+        "lesion": false
+      },
+      {
+        "trial": 59,
+        "command": "RIGHT",
+        "time": 294.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 102.80360103423881,
+        "lesion": false
+      },
+      {
+        "trial": 60,
+        "command": "LEFT",
+        "time": 299.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 100.91922861696351,
+        "lesion": false
+      },
+      {
+        "trial": 61,
+        "command": "LEFT",
+        "time": 304.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 110.34190254966475,
+        "lesion": false
+      },
+      {
+        "trial": 62,
+        "command": "LEFT",
+        "time": 309.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 118.76275344584083,
+        "lesion": false
+      },
+      {
+        "trial": 63,
+        "command": "LEFT",
+        "time": 314.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 126.37185293150564,
+        "lesion": false
+      },
+      {
+        "trial": 64,
+        "command": "LEFT",
+        "time": 319.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 133.8142733915301,
+        "lesion": false
+      },
+      {
+        "trial": 65,
+        "command": "RIGHT",
+        "time": 324.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 126.72502766170237,
+        "lesion": false
+      },
+      {
+        "trial": 66,
+        "command": "LEFT",
+        "time": 329.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 122.16825336269295,
+        "lesion": false
+      },
+      {
+        "trial": 67,
+        "command": "RIGHT",
+        "time": 334.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 113.68723238005813,
+        "lesion": false
+      },
+      {
+        "trial": 68,
+        "command": "LEFT",
+        "time": 339.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 111.63782062997458,
+        "lesion": false
+      },
+      {
+        "trial": 69,
+        "command": "LEFT",
+        "time": 344.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 120.03085665603331,
+        "lesion": false
+      },
+      {
+        "trial": 70,
+        "command": "LEFT",
+        "time": 349.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 127.55552897799141,
+        "lesion": false
+      },
+      {
+        "trial": 71,
+        "command": "RIGHT",
+        "time": 354.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 118.1604639461154,
+        "lesion": false
+      },
+      {
+        "trial": 72,
+        "command": "LEFT",
+        "time": 359.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 114.7887803435934,
+        "lesion": false
+      },
+      {
+        "trial": 73,
+        "command": "LEFT",
+        "time": 364.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 123.03469846686453,
+        "lesion": false
+      },
+      {
+        "trial": 74,
+        "command": "LEFT",
+        "time": 369.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 130.06116088331268,
+        "lesion": false
+      },
+      {
+        "trial": 75,
+        "command": "LEFT",
+        "time": 374.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 138.67341730908817,
+        "lesion": false
+      },
+      {
+        "trial": 76,
+        "command": "LEFT",
+        "time": 379.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 150.4464863273263,
+        "lesion": false
+      },
+      {
+        "trial": 77,
+        "command": "RIGHT",
+        "time": 384.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 146.06796133525677,
+        "lesion": false
+      },
+      {
+        "trial": 78,
+        "command": "LEFT",
+        "time": 389.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 146.4126190260267,
+        "lesion": false
+      },
+      {
+        "trial": 79,
+        "command": "LEFT",
+        "time": 394.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 159.22181488524444,
+        "lesion": false
+      },
+      {
+        "trial": 80,
+        "command": "RIGHT",
+        "time": 399.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 153.2173071878286,
+        "lesion": false
+      },
+      {
+        "trial": 81,
+        "command": "LEFT",
+        "time": 404.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 155.48938612866945,
+        "lesion": false
+      },
+      {
+        "trial": 82,
+        "command": "RIGHT",
+        "time": 409.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 150.08750071584302,
+        "lesion": false
+      },
+      {
+        "trial": 83,
+        "command": "LEFT",
+        "time": 414.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 151.9360399188122,
+        "lesion": false
+      },
+      {
+        "trial": 84,
+        "command": "RIGHT",
+        "time": 419.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 147.57831257261316,
+        "lesion": false
+      },
+      {
+        "trial": 85,
+        "command": "LEFT",
+        "time": 424.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 148.32878146896718,
+        "lesion": false
+      },
+      {
+        "trial": 86,
+        "command": "RIGHT",
+        "time": 429.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 144.1148788404282,
+        "lesion": false
+      },
+      {
+        "trial": 87,
+        "command": "LEFT",
+        "time": 434.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 143.13127898483924,
+        "lesion": false
+      },
+      {
+        "trial": 88,
+        "command": "LEFT",
+        "time": 439.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 155.91681541448838,
+        "lesion": false
+      },
+      {
+        "trial": 89,
+        "command": "LEFT",
+        "time": 444.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 167.87449143835894,
+        "lesion": false
+      },
+      {
+        "trial": 90,
+        "command": "LEFT",
+        "time": 449.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 177.78107318976663,
+        "lesion": false
+      },
+      {
+        "trial": 91,
+        "command": "RIGHT",
+        "time": 454.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 169.40935149670912,
+        "lesion": false
+      },
+      {
+        "trial": 92,
+        "command": "LEFT",
+        "time": 459.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 169.47541713268126,
+        "lesion": false
+      },
+      {
+        "trial": 93,
+        "command": "LEFT",
+        "time": 464.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -179.83346952753956,
+        "lesion": false
+      },
+      {
+        "trial": 94,
+        "command": "LEFT",
+        "time": 469.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -169.5599360811062,
+        "lesion": false
+      },
+      {
+        "trial": 95,
+        "command": "RIGHT",
+        "time": 474.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -178.0550719562596,
+        "lesion": false
+      },
+      {
+        "trial": 96,
+        "command": "LEFT",
+        "time": 479.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -179.23298375768047,
+        "lesion": false
+      },
+      {
+        "trial": 97,
+        "command": "RIGHT",
+        "time": 484.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 172.56761301943362,
+        "lesion": false
+      },
+      {
+        "trial": 98,
+        "command": "LEFT",
+        "time": 489.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 172.31173333572914,
+        "lesion": false
+      },
+      {
+        "trial": 99,
+        "command": "LEFT",
+        "time": 494.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -178.62764397423334,
+        "lesion": false
+      },
+      {
+        "trial": 100,
+        "command": "LEFT",
+        "time": 499.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -169.1284937617665,
+        "lesion": false
+      },
+      {
+        "trial": 101,
+        "command": "LEFT",
+        "time": 504.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -158.9985485504522,
+        "lesion": false
+      },
+      {
+        "trial": 102,
+        "command": "LEFT",
+        "time": 509.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -150.45106821011555,
+        "lesion": false
+      },
+      {
+        "trial": 103,
+        "command": "RIGHT",
+        "time": 514.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -159.69496271948586,
+        "lesion": false
+      },
+      {
+        "trial": 104,
+        "command": "LEFT",
+        "time": 519.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -161.22330269752453,
+        "lesion": false
+      },
+      {
+        "trial": 105,
+        "command": "RIGHT",
+        "time": 524.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -169.11060117999682,
+        "lesion": false
+      },
+      {
+        "trial": 106,
+        "command": "RIGHT",
+        "time": 529.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 170.99328861617263,
+        "lesion": false
+      },
+      {
+        "trial": 107,
+        "command": "RIGHT",
+        "time": 534.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 153.5305283082946,
+        "lesion": false
+      },
+      {
+        "trial": 108,
+        "command": "LEFT",
+        "time": 539.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 155.89412156129964,
+        "lesion": false
+      },
+      {
+        "trial": 109,
+        "command": "RIGHT",
+        "time": 544.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 150.6315860986633,
+        "lesion": false
+      },
+      {
+        "trial": 110,
+        "command": "LEFT",
+        "time": 549.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 152.108763240902,
+        "lesion": false
+      },
+      {
+        "trial": 111,
+        "command": "LEFT",
+        "time": 554.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 164.43944908206,
+        "lesion": false
+      },
+      {
+        "trial": 112,
+        "command": "LEFT",
+        "time": 559.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 175.37640610015632,
+        "lesion": false
+      },
+      {
+        "trial": 113,
+        "command": "LEFT",
+        "time": 564.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -175.09252079431027,
+        "lesion": false
+      },
+      {
+        "trial": 114,
+        "command": "LEFT",
+        "time": 569.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -165.39256904067324,
+        "lesion": false
+      },
+      {
+        "trial": 115,
+        "command": "LEFT",
+        "time": 574.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -155.8678714278097,
+        "lesion": false
+      },
+      {
+        "trial": 116,
+        "command": "RIGHT",
+        "time": 579.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -163.93876680562167,
+        "lesion": false
+      },
+      {
+        "trial": 117,
+        "command": "RIGHT",
+        "time": 584.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 177.0263262335198,
+        "lesion": false
+      },
+      {
+        "trial": 118,
+        "command": "LEFT",
+        "time": 589.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 175.71416642478306,
+        "lesion": false
+      },
+      {
+        "trial": 119,
+        "command": "RIGHT",
+        "time": 594.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 168.25877083350883,
+        "lesion": false
+      },
+      {
+        "trial": 120,
+        "command": "LEFT",
+        "time": 599.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 168.60688467291118,
+        "lesion": false
+      },
+      {
+        "trial": 121,
+        "command": "LEFT",
+        "time": 604.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 178.55179504583927,
+        "lesion": false
+      },
+      {
+        "trial": 122,
+        "command": "LEFT",
+        "time": 609.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -172.31825571860057,
+        "lesion": false
+      },
+      {
+        "trial": 123,
+        "command": "LEFT",
+        "time": 614.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -162.77851108020283,
+        "lesion": false
+      },
+      {
+        "trial": 124,
+        "command": "LEFT",
+        "time": 619.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -154.35218300714035,
+        "lesion": false
+      },
+      {
+        "trial": 125,
+        "command": "LEFT",
+        "time": 624.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -146.071977634416,
+        "lesion": false
+      },
+      {
+        "trial": 126,
+        "command": "RIGHT",
+        "time": 629.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -154.58172944163505,
+        "lesion": false
+      },
+      {
+        "trial": 127,
+        "command": "LEFT",
+        "time": 634.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -157.11084731290973,
+        "lesion": false
+      },
+      {
+        "trial": 128,
+        "command": "LEFT",
+        "time": 639.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -149.07975376272833,
+        "lesion": false
+      },
+      {
+        "trial": 129,
+        "command": "RIGHT",
+        "time": 644.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -158.01561513498498,
+        "lesion": false
+      },
+      {
+        "trial": 130,
+        "command": "RIGHT",
+        "time": 649.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -178.064801349352,
+        "lesion": false
+      },
+      {
+        "trial": 131,
+        "command": "RIGHT",
+        "time": 654.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 163.10708624302478,
+        "lesion": false
+      },
+      {
+        "trial": 132,
+        "command": "LEFT",
+        "time": 659.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 164.61225764541658,
+        "lesion": false
+      },
+      {
+        "trial": 133,
+        "command": "RIGHT",
+        "time": 664.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": 158.68107525531008,
+        "lesion": false
+      },
+      {
+        "trial": 134,
+        "command": "LEFT",
+        "time": 669.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 160.75402046235516,
+        "lesion": false
+      },
+      {
+        "trial": 135,
+        "command": "LEFT",
+        "time": 674.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": 171.4682654410541,
+        "lesion": false
+      },
+      {
+        "trial": 136,
+        "command": "LEFT",
+        "time": 679.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -178.01041741169664,
+        "lesion": false
+      },
+      {
+        "trial": 137,
+        "command": "LEFT",
+        "time": 684.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -168.527712589944,
+        "lesion": false
+      },
+      {
+        "trial": 138,
+        "command": "LEFT",
+        "time": 689.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -158.7411123061356,
+        "lesion": false
+      },
+      {
+        "trial": 139,
+        "command": "LEFT",
+        "time": 694.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -150.14879340596556,
+        "lesion": false
+      },
+      {
+        "trial": 140,
+        "command": "LEFT",
+        "time": 699.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -142.5643373690473,
+        "lesion": false
+      },
+      {
+        "trial": 141,
+        "command": "LEFT",
+        "time": 704.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -134.89455991208632,
+        "lesion": false
+      },
+      {
+        "trial": 142,
+        "command": "LEFT",
+        "time": 709.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -123.94340746572041,
+        "lesion": false
+      },
+      {
+        "trial": 143,
+        "command": "RIGHT",
+        "time": 714.0,
+        "left": 8.478027992382289e-05,
+        "right": 0.0007382551337140834,
+        "heading_deg": -127.92384163970392,
+        "lesion": false
+      },
+      {
+        "trial": 144,
+        "command": "LEFT",
+        "time": 719.0,
+        "left": 0.00044246790342049975,
+        "right": 3.420951543993754e-05,
+        "heading_deg": -129.2470653004417,
+        "lesion": false
+      }
+    ]
+  }
+}

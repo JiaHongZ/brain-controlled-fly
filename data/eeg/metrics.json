@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "provenance": {
+    "dataset": "BNCI2014_001 / BCI Competition IV 2a",
+    "subject": "A01",
+    "source": "https://lampx.tugraz.at/~bci/database/001-2014/",
+    "training": "A01T",
+    "evaluation": "A01E",
+    "sampling_rate": 250,
+    "epoch": "2–6 s after trial onset (0–4 s after MI cue)",
+    "files": {
+      "A01T.mat": "054f02e70cf9c4ada1517e9b9864f45407939c1062c6793516585c6f511d0325",
+      "A01E.mat": "53d415f39c3d7b0c88b894d7b08d99bcdfe855ede63831d3691af1a45607fb62"
+    }
+  },
+  "training_trials": 144,
+  "evaluation_trials": 144,
+  "accuracy": 0.7430555555555556,
+  "balanced_accuracy": 0.7430555555555556,
+  "confusion_matrix": [
+    [
+      69,
+      3
+    ],
+    [
+      34,
+      38
+    ]
+  ],
+  "labels": [
+    "LEFT",
+    "RIGHT"
+  ],
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "sample_rate": 250,
+  "decoder": "Causal 8–30 Hz · CSP (4) · shrinkage LDA",
+  "decision_window_seconds": 2,
+  "split": "A01T train → A01E held-out evaluation; no test-set fitting or tuning",
+  "artifact_policy": "All left/right trials retained, including dataset-flagged artifacts",
+  "training_artifacts": 6,
+  "evaluation_artifacts": 3,
+  "confidence_note": "LDA posterior, not independently calibrated; this is not clinical confidence"
+}

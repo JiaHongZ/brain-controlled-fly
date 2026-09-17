@@ -1,0 +1,18 @@
+{
+  "result": {
+    "lesion": true,
+    "motors": {
+      "L": 0,
+      "R": 0
+    },
+    "signals": [
+      1,
+      1
+    ],
+    "drift": 4.802174261766725,
+    "readout": "切断后身体漂移：4.8° · CPG 1.00 / 1.00",
+    "arrowsHidden": true
+  },
+  "restore": true,
+  "errors": []
+}

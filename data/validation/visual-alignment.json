@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "meshError": 0,
+    "rotationError": 5.605155395382866e-8,
+    "endpointError": 4.7350821049377095e-7,
+    "markerError": 0,
+    "activityError": 0,
+    "decorativeParticlesRemoved": true,
+    "responsePoints": 42,
+    "responseTurn": 11.560402628237144,
+    "responseText": "本次实际转角：左 ↶ 11.6° · 刺激后响应"
+  },
+  "errors": []
+}

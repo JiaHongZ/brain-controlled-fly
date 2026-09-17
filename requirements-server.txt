@@ -1,0 +1,13 @@
+# Direct dependencies pinned to the locally tested versions.
+fastapi==0.141.1
+uvicorn==0.53.0
+websockets==15.0.1
+numpy==2.3.5
+scipy==1.18.1
+scikit-learn==1.9.1
+mne==1.13.2
+pooch==1.9.0
+flygym==2.1.0
+mujoco==3.9.0
+pandas==3.0.1
+pyarrow==25.0.1

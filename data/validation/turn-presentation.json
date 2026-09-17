@@ -1,0 +1,16 @@
+{
+  "left": {
+    "turn": 26.70399620297497,
+    "top": true,
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "canvas": true
+  },
+  "right": -18.376630895716783,
+  "viewToggle": true,
+  "mobile": true,
+  "errors": []
+}

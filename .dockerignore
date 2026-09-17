@@ -1,0 +1,13 @@
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+.git
+.env
+data/eeg/raw
+data/manc/raw
+data/manc/display
+data/validation
+tests
+*.png
+*.webm

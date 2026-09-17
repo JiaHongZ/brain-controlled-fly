@@ -1,0 +1,36 @@
+{
+  "dataset": "Male Adult Nerve Cord (MANC)",
+  "version": "v1.0",
+  "official_landing_page": "https://www.janelia.org/project-team/flyem/manc-connectome",
+  "modality": "Electron microscopy reconstruction; directed chemical synapse counts",
+  "files": {
+    "traced-neurons.csv": {
+      "url": "https://storage.googleapis.com/flyem-manc-exports/v1.0/manc-traced-adjacencies-v1.0/traced-neurons.csv",
+      "bytes": 629548,
+      "publisher_md5_base64": "aaeazrfgVIhfTkc2TyOcag==",
+      "sha256": "6b6e1dfdba71f0cef9870d8414a5cbdaa2edf25dcf6d56de0467c79debac3a5a",
+      "generation": "1685678226631730"
+    },
+    "traced-connections.csv": {
+      "url": "https://storage.googleapis.com/flyem-manc-exports/v1.0/manc-traced-adjacencies-v1.0/traced-connections.csv",
+      "bytes": 75262163,
+      "publisher_md5_base64": "xUPcmgw2fZ98iJAdiS14oA==",
+      "sha256": "4553191e8fd0a198e3588e188b649b7cb39b0550e35d6a11d63b0cd7d8145fda",
+      "generation": "1685678227570342"
+    },
+    "neuron-properties.feather": {
+      "url": "https://storage.googleapis.com/flyem-manc-exports/v1.0/manc-v1.0-neuron-properties.feather",
+      "bytes": 17188218,
+      "publisher_md5_base64": "9GcxF1WcxyfhvvywIrahQw==",
+      "sha256": "0c4476528906bb0a20e05e1f01e83fc2e5a582761536171ede5463669ca0b891",
+      "generation": "1685939278333965"
+    },
+    "README.txt": {
+      "url": "https://storage.googleapis.com/flyem-manc-exports/v1.0/manc-traced-adjacencies-v1.0/README",
+      "bytes": 1195,
+      "publisher_md5_base64": "E5cOjhEvloMhpfNggdjRcg==",
+      "sha256": "fdb7226dd60a1d0794c78ef3050057d79b222fc973e0f70ee80270e3be1c2fa3",
+      "generation": "1685678226604719"
+    }
+  }
+}
