@@ -1,71 +1,73 @@
 # Brain-Controlled Digital Fly
 
-> **🖥️ 在线 Demo（点击体验）**：<https://naturals-extremely-operation-grill.trycloudflare.com>
+> **🖥️ Live Demo**: <https://naturals-extremely-operation-grill.trycloudflare.com>
 
-**部署到网页服务器：请看 [DEPLOY.md](DEPLOY.md)。包含 Docker / Compose / Nginx 配置。**
+**To deploy to a web server, see [DEPLOY.md](DEPLOY.md). Docker / Compose / Nginx configs are included.**
 
-公开人类 EEG → CSP + LDA → 真实 MANC 连接组上的神经活动传播 → 运动神经元读出 → NeuroMechFly / MuJoCo 物理行为。
+Public human EEG → CSP + LDA → neural activity propagation over the measured MANC connectome → motor-neuron readout → NeuroMechFly / MuJoCo physical behavior.
 
-这是一套可运行、可交互的工程演示，不是完整果蝇脑或经过生物学验证的数字孪生。默认使用解码预测；不隐藏错误 trial。
+This is a runnable, interactive engineering demo — not a complete fly brain and not a biologically validated digital twin. It uses decoded predictions by default and does not hide erroneous trials.
 
-## 启动
+## Getting started
 
-使用 **Python 3.12** 和支持 WebGL 的浏览器，在本目录执行：
+Use **Python 3.12** and a WebGL-capable browser. From this directory:
 
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
 
-浏览器自动打开 http://localhost:8501 。Windows 可双击 `start.bat`；macOS / Linux 可运行 `sh start.sh`（当前实际验证平台为 Windows）。支持 `--no-browser` 和 `--port 8502`。首次安装需要网络及足够时间安装科学计算与物理引擎依赖。
+The browser opens http://localhost:8501 automatically. On Windows, double-click `start.bat`; on macOS / Linux, run `sh start.sh` (the actual validation platform was Windows). `--no-browser` and `--port 8502` are supported. The first install needs network access and enough time to install the scientific-computing and physics-engine dependencies.
 
-交付包含准备好的真实 EEG 与完整阈值过滤后的 MANC 矩阵。安装依赖后可离线演示。缺少准备数据时自动从公开来源下载并构建；失败会显示真实错误，不回退到合成数据。
+The distribution includes prepared real EEG and the full threshold-filtered MANC matrix, so the demo runs offline after dependencies are installed. If prepared data is missing, it is downloaded and built automatically from public sources; failures surface the real error instead of falling back to synthetic data.
 
-## 使用
+## Usage
 
-- **Decoded EEG**：真实 CSP + LDA 预测驱动 DNa02；默认模式。
-- **Ground Truth**：公开标签驱动同一条神经与物理链路，用于对照。
-- **Cut synapses**：切断传播，移除 EEG 对运动的影响；基础 CPG 仍会行走。Restore 恢复。
-- Pause / Resume、Next trial、Reset、0.5× / 1× / 2×；脑网络和身体均可拖动旋转、滚轮缩放。
-- Session details 显示数据、算法、校验口径和建模假设。
+- **Decoded EEG** (default): real CSP + LDA predictions drive DNa02.
+- **Ground Truth**: public labels drive the same neural-and-physics pipeline, for comparison.
+- **Manual**: choose a left/right input signal to drive DNa02 directly, for interactive control.
+- **Cut synapses**: disconnect propagation and remove the EEG's influence on motion; the baseline CPG keeps walking. **Restore** reconnects.
+- Pause / Resume, Next trial, Reset, and 0.5× / 1× / 2× speed. Both the brain network and the body can be dragged to rotate and scrolled to zoom.
+- **Session details** shows the data, algorithms, verification criteria, and modeling assumptions.
+- The UI is **bilingual**: use the **中文 / EN** toggle in the top-right corner.
 
-左栏绘制 8 通道波形，解码使用全部 22 通道。中栏展示真实坐标的 1,800 个神经元、20,000 条连接，节点亮度随模型活动变化，边亮度由两端节点活动推导；不使用示意流动粒子。右栏展示实际物理姿态、轨迹、参考目标、接触数和航向。全部 144 个测试 trial 按原顺序循环。
+The left panel draws 8 channel waveforms (decoding uses all 22 channels). The middle panel shows 1,800 neurons and 20,000 connections at their real coordinates; node brightness follows model activity and edge brightness is derived from the activity of its endpoint nodes — no schematic flow particles. The right panel shows the actual physical pose, trajectory, reference target, contact count, and heading. All 144 held-out test trials loop in their original order.
 
-## 数据与真实程度
+## Data & fidelity
 
 ### EEG
 
-BNCI2014_001 / BCI Competition IV 2a，A01T 训练、A01E 测试，只选左右手，各会话 144 trials。250 Hz，cue 后 0–4 秒信号；预测只使用前 2 秒。因果 8–30 Hz Butterworth → 4 分量 CSP → shrinkage LDA。测试准确率 **74.3056%**，混淆矩阵（真实行 L/R，预测列 L/R）`[[69,3],[34,38]]`。置信度是未单独校准的 LDA 后验。预测离线预计算以保证动画流畅，不是在线采集 EEG。
+BNCI2014_001 / BCI Competition IV 2a, A01T for training and A01E for testing, left/right hand only, 144 trials per session. 250 Hz, a 0–4 s signal after the cue; predictions use only the first 2 s. Causal 8–30 Hz Butterworth → 4-component CSP → shrinkage LDA. Held-out accuracy is **74.3056%**; the confusion matrix (true rows L/R, predicted columns L/R) is `[[69,3],[34,38]]`. Confidence is an uncalibrated LDA posterior. Predictions are precomputed offline for smooth animation — this is not live EEG acquisition.
 
-来源：https://lampx.tugraz.at/~bci/database/001-2014/
+Source: https://lampx.tugraz.at/~bci/database/001-2014/
 
-### 实测连接组
+### Measured connectome
 
-**MANC v1.0 是雄性果蝇腹神经索，不是完整脑。** 使用 23,188 个 traced neurons；原始 5,243,574 条有向连接，保留至少 5 个突触的 1,360,021 条连接，共 23,999,382 个突触。没有生成或补造边。神经元 ID、连接及突触数来自 EM 重建；原文件经过发布方 MD5 验证并记录 SHA256。
+**MANC v1.0 is a male fly ventral nerve cord, not a whole brain.** It uses 23,188 traced neurons; from 5,243,574 released directed connections, 1,360,021 connections with at least 5 synapses are retained, totaling 23,999,382 synapses. No edges are generated or synthesized. Neuron IDs, connections, and synapse counts come from EM reconstruction; the source files pass the publisher's MD5 verification and their SHA256 is recorded.
 
-EEG LEFT / RIGHT 分别刺激真实 DNa02 #10126 / #10118。腿部运动神经元使用 eLife 96084 Supplement 6 标注；264 个标注中 247 个匹配此 traced release，缺失的 17 个明确排除。显示子集不限制实际计算：全部保留节点与边参与稀疏矩阵动力学。
+EEG LEFT / RIGHT stimulate the real DNa02 #10126 / #10118, respectively. Leg motor neurons use the eLife 96084 Supplement 6 annotation; 247 of 264 annotations match this traced release, and the 17 missing entries are explicitly excluded. The display subset does not limit the computation: all retained nodes and edges participate in the sparse-matrix dynamics.
 
-来源：https://www.janelia.org/project-team/flyem/manc-connectome
+Source: https://www.janelia.org/project-team/flyem/manc-connectome
 
-运动标注：https://doi.org/10.7554/eLife.96084
+Motor annotation: https://doi.org/10.7554/eLife.96084
 
-### 模型假设与物理身体
+### Modeling assumptions & physical body
 
-- 神经动力学是延迟整流率模型：神经步长 5 ms、时间常数 25 ms、传播延迟 10 ms、递归增益 0.92。按输入突触数归一化，预测 ACh 为正、GABA/Glut 为负、未知为正。这些不是逐神经元拟合的生理参数。
-- MANC 左右运动群平均活动经同一标定尺度归一化。工程适配器 `clip(1 - 0.65 * gain * motor / scale, 0.25, 1)`（默认 gain=2，可选 1 / 1.5 / 2） 调节同侧 CPG 步幅；身体代码不接收 EEG 标签或左右分类。
-- 身体为 FlyGym 2.1.0 / NeuroMechFly 的 micro-CT 派生雌性果蝇模型，与雄性 MANC 来自不同标本。MuJoCo 3.9 计算重力、关节和接触：42 个腿部位置执行器、6 个黏附执行器；物理步长 0.1 ms，控制步长 1 ms。
-- 基础行走来自已发表的混合 CPG 与反射控制器，**MANC 调节转向，不独立生成基础步态**。没有直接编排身体平移、转角、碰壁反弹或 trial 间瞬移。
-- 人类 EEG → DNa02、运动群 → CPG 都是工程接口，不是已验证的人类—果蝇生物映射。
+- Neural dynamics are a delayed rectified-rate model: 5 ms neural step, 25 ms time constant, 10 ms propagation delay, 0.92 recurrent gain. It is normalized by input synapse count, with predicted ACh positive, GABA/Glut negative, and unknown treated as positive. These are not per-neuron fitted physiological parameters.
+- Mean activity of the MANC left/right motor populations is normalized by a shared calibration scale. An engineering adapter `clip(1 - 0.65 * gain * motor / scale, 0.25, 1)` (default gain = 2, options 1 / 1.5 / 2) modulates the ipsilateral CPG stride; the body code never receives EEG labels or left/right classes.
+- The body is the micro-CT-derived female fly model from FlyGym 2.1.0 / NeuroMechFly, a different specimen from the male MANC. MuJoCo 3.9 computes gravity, joints, and contacts: 42 leg position actuators and 6 adhesion actuators; physics step 0.1 ms, control step 1 ms.
+- Baseline walking comes from a published hybrid CPG + reflex controller. **MANC modulates turning; it does not independently generate the baseline gait.** There is no scripted body translation, rotation, wall bouncing, or between-trial teleportation.
+- Human EEG → DNa02 and motor populations → CPG are engineering interfaces, not a validated human–fly biological mapping.
 
-身体模型：https://github.com/NeLy-EPFL/flygym/tree/v2.1.0
+Body model: https://github.com/NeLy-EPFL/flygym/tree/v2.1.0
 
-论文：https://doi.org/10.1038/s41592-024-02497-y
+Paper: https://doi.org/10.1038/s41592-024-02497-y
 
-## 动画时钟
+## Animation clock
 
-每个 trial 的 EEG 时间为 5 秒：0–2 秒采集，2 秒揭示预测，2–3.8 秒刺激 DNa02，4 秒记录运动读出，5 秒切换。神经/身体时间以 EEG 的 0.1× 推进，界面明确显示 BODY 时间。身体持续进行物理积分，转向连续发生，不在第 4 秒强制转固定角度。目标仅是参考，不是闭环导航任务。
+Each trial spans 5 s of EEG time: 0–2 s acquisition, the prediction is revealed at 2 s, DNa02 is stimulated during 2–3.8 s, the motor readout is recorded at 4 s, and the trial switches at 5 s. Neural/body time advances at 0.1× the EEG time, and the interface shows the BODY time explicitly. The body integrates physics continuously and turning happens continuously — it does not force a fixed angle at 4 s. The target is only a reference, not a closed-loop navigation task.
 
-## 复现与校验
+## Reproduction & verification
 
 ```bash
 python scripts/download_eeg.py --force
@@ -76,32 +78,32 @@ python scripts/probe_real_chain.py
 python scripts/audit_long_replay.py
 ```
 
-ZIP 不附体积较大的原始 MAT / CSV / Feather；运行下载脚本即可重建。逐边审计需要原始连接 CSV，缺失时对应测试明确跳过。数据来源见 `data/eeg/provenance.json`、`data/manc/source_manifest.json`、`network_config.json`。依赖实测版本见 `tested-versions.json`。
+The ZIP omits the large raw MAT / CSV / Feather files; run the download scripts to rebuild them. Per-edge auditing requires the original connection CSV, and the corresponding tests are explicitly skipped when it is missing. Data provenance is in `data/eeg/provenance.json`, `data/manc/source_manifest.json`, and `network_config.json`. The tested dependency versions are in `tested-versions.json`.
 
-`data/connectome/nodes.csv`、`edges.csv` 是**可视化子集**的统一表接口，不能通过只替换它们更改全网络仿真。全网络由 `scripts/build_manc_connectome.py` 生成 `data/manc/measured_network.npz`、`measured_edges.npz` 和 `all_neurons.json`，更换数据源需同步构建这些文件。
+`data/connectome/nodes.csv` and `edges.csv` are a unified table interface for the **visualization subset** only; replacing them alone cannot change the full-network simulation. The full network is produced by `scripts/build_manc_connectome.py` into `data/manc/measured_network.npz`, `measured_edges.npz`, and `all_neurons.json`; changing the data source requires rebuilding these files together.
 
-## 交付文件
+## Deliverables
 
-- `app.py`、`backend/`、`frontend/`：完整服务、动力学与本地 Three.js 界面。
-- `scripts/`：官方数据下载、构建、因果对照和全会话信号审计。
-- `tests/`：真实数据、动力学、物理、EEG 因果滤波测试。
-- `demo-preview.png` / `mobile-preview.png`：实际浏览器截图。
-- `VERIFICATION.md` / `data/validation/`：验证说明与原始结果。
+- `app.py`, `backend/`, `frontend/`: the full server, dynamics, and local Three.js interface.
+- `scripts/`: official data download, build, causal comparison, and full-session signal auditing.
+- `tests/`: real-data, dynamics, physics, and EEG causal-filtering tests.
+- `demo-preview.png` / `mobile-preview.png`: real browser screenshots.
+- `VERIFICATION.md` / `data/validation/`: verification notes and raw results.
 
-真实连接数据不意味着模型已解释生物行为；本 Demo 证明的是可复现的工程链路及其在该模型中的因果依赖。
+Real connectome data does not mean the model has explained biological behavior; this demo proves a reproducible engineering pipeline and its causal dependence within that model.
 
-### 轨迹显示修正
+### Trajectory display
 
-身体网格、轨迹端点和胸部地面投影标记使用同一物理快照，不对身体单独缓动。轨迹记录胸部中心的 XY 地面投影，不是脚印；小地图采用固定世界坐标并标出身体朝向。朝向不必等于瞬时速度方向，物理模型允许侧滑。节点亮度使用当前模型活动的逐细胞归一化值；边亮度只是端点活动的可视化，不是实测突触电流或动作电位。
+The body mesh, trajectory endpoints, and thorax ground-projection marker use the same physics snapshot — the body is not eased separately. The trajectory records the XY ground projection of the thorax center, not footprints; the minimap uses fixed world coordinates and marks the body heading. Heading does not have to equal the instantaneous velocity direction — the physics model allows sideslip. Node brightness is per-cell normalized model activity; edge brightness is only a visualization of endpoint activity, not measured synaptic current or action potentials.
 
-### 解码与转向如何对应
+### How decoding maps to turning
 
-左右转指相对果蝇自身朝向的转向，不是屏幕左右移动。前 2 秒只有基础步态；第 2 秒后的路段高亮，历史路径变灰。界面同时显示实际驱动类别、实时运动群偏置，以及自第 2 秒起累计的物理航向变化（逐步 unwrap，避免 180° 边界误判）。刺激在 3.8 秒停止，之后仍有神经衰减与身体响应。运动日志的 Δ 为第 4 秒读出时累计转角。EEG 分类与神经连接保持不变；转向增益是明确可调的工程参数，身体轨迹由物理积分产生。
+"Left/right turn" is relative to the fly's own heading, not left/right movement on screen. The first 2 s have only baseline gait; after 2 s the active path segment is highlighted and the historical path turns gray. The interface shows the actual driving class, the live motor-population bias, and the accumulated physical heading change since 2 s (unwrapped step-by-step to avoid ±180° boundary errors). Stimulation stops at 3.8 s, after which neural decay and body response continue. The Δ in the activity log is the accumulated turn at the 4 s readout. EEG classification and neural connectivity are unchanged; steering gain is an explicitly adjustable engineering parameter, and the body trajectory is produced by physics integration.
 
-### 更明显的实际转向
+### Steering strength
 
-默认转向增益为 2×，扩大运动群活动引起的左右步幅差，最低步幅信号为 0.25。默认俯视，按钮可切换侧视。俯视画面叠加解码时方向的虚线与当前方向的实线；下方大幅角度图将解码时朝向统一朝上，显示真实累计转角，不放大角度。1× 增益验证数据保存在 `data/validation/baseline-gain1/`；2× 增益完整验证见 `gain2-full-replay.json`。
+The default steering gain is 2×, amplifying the left/right stride difference caused by motor-population activity, with a minimum stride signal of 0.25. The default view is top-down; a button switches to side view. The top-down view overlays a dashed line for the decoded direction and a solid line for the current direction; the large angle plot below fixes the decoded heading upward and shows the real accumulated turn without amplification. 1× gain validation data lives in `data/validation/baseline-gain1/`; the full 2× gain validation is in `gain2-full-replay.json`.
 
-### Cut synapses 的准确含义
+### What "Cut synapses" means
 
-切断后左右运动神经元输出归零，下一物理更新使用相同的左右步幅信号 [1, 1]。CPG 基础步态和当前身体状态继续积分，因此仍可能转动；切断不能撤销此前形成的运动、姿态和步态相位，也不是刹车或直线锁定。切断后的界面用中性轨迹和“切断后漂移”读数。中途切断的回归测试从相同物理状态出发，验证其后每一步与零神经输入分支的 qpos 完全一致，包括跨 trial 的情况。
+After cutting, the left/right motor-neuron outputs become zero, and the next physics update uses equal left/right stride signals [1, 1]. The CPG baseline gait and current body state keep integrating, so the fly may still rotate; cutting cannot undo previously accumulated motion, pose, and gait phase, and it is neither a brake nor a straight-line lock. After cutting, the interface uses a neutral trajectory and a "post-cut drift" reading. The mid-cut regression test starts from the same physical state and verifies that every subsequent step exactly matches the zero-neural-input branch's qpos, including across trials.
