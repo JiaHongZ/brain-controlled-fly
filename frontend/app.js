@@ -58,7 +58,7 @@ function update(s){
   $('heading').innerHTML=`${String(Math.round(((s.fly.heading*180/Math.PI)%360+360)%360)).padStart(3,'0')}<span>°</span>`;
   $('distance').innerHTML=s.distance.toFixed(2)+'<span> mm</span>';text('targets',String(s.hits).padStart(2,'0'));
   text('physics-time',`BODY ${s.body.physics_time.toFixed(3)} s · 0.1×`);text('contact-count',`${s.body.contacts} ${tr('contacts')}`);text('upright',s.body.upright>.5?tr('upright'):tr('fallen'));
-  text('arena-status',s.running?tr('physics-live'):tr('paused'));text('connection',s.error?tr('physics-stopped'):s.running?tr('replay-running'):tr('replay-paused'));
+  text('arena-status',s.running?tr('physics-live'):tr('paused'));text('connection',s.error?tr('physics-stopped'):s.running?tr('simulation-running'):tr('simulation-paused'));
   if(s.error)text('mode-info',s.error);
   $('play').innerHTML=s.running?`Ⅱ <span>${tr('pause')}</span>`:`▶ <span>${tr('resume')}</span>`;
   const events=JSON.stringify(s.events);

@@ -1,11 +1,11 @@
-"""EEG replay -> measured MANC rate model -> physical NeuroMechFly locomotion."""
+"""EEG input -> measured MANC rate model -> physical NeuroMechFly locomotion."""
 import math
 import numpy as np
 from .manc_network import MeasuredDynamics
 from .biomechanics import BiomechanicalFly
 
 class RealSimulation:
-    DT=.05                 # EEG replay seconds per dashboard update
+    DT=.05                 # EEG stream seconds per dashboard update
     BODY_DT=.005           # 10x slow-motion neural/body clock, explicitly shown
     TRIAL_SECONDS=5.
     def __init__(self,graph,data):

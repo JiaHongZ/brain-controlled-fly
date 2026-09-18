@@ -10,7 +10,7 @@
 
 ## 转向幅度与稳定性
 
-新版前 24 个真实解码 trial 按原顺序回放，净转角约 22–26°，全部方向匹配，无跌倒。完整两模式回放结果保存在 `data/validation/gain2-full-replay.json`；运行 `python scripts/audit_gain2.py` 可复现。净转角从第 2 秒累计到第 5 秒，逐步处理航向跨越 ±180° 的情况。匹配解码方向不代表解码等于真实标签。
+前 24 个真实解码 trial 按原顺序运行，净转角约 22–26°，全部方向匹配，无跌倒。完整两模式结果保存在 `data/validation/gain2-full-replay.json`；运行 `python scripts/audit_gain2.py` 可复现。净转角从第 2 秒累计到第 5 秒，逐步处理航向跨越 ±180° 的情况。匹配解码方向不代表解码等于真实标签。
 
 ## 可视化
 
@@ -20,7 +20,7 @@
 
 ## 历史证据
 
-`data/validation/baseline-gain1/` 是原 1× 增益下的完整回放、逐 trial 对齐、孤立神经刺激及解压运行检查，不能当作新版数值结果。
+`data/validation/baseline-gain1/` 是 1× 增益下的完整运行、逐 trial 对齐、孤立神经刺激及解压运行检查，不能当作 2× 增益下的数值结果。
 
 真实来源是 EEG、EM 连接结构及 micro-CT 身体形态。MANC 为腹神经索而非全脑；动力学与跨系统接口含建模假设，基础行走由已有 CPG 产生。
 
