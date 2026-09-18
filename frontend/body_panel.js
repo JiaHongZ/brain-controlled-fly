@@ -1,4 +1,5 @@
 import * as THREE from './vendor/three.module.js';
+import {t} from './i18n.js';
 
 // Compiled MuJoCo mesh vertices + live geom_xpos/geom_xmat. No scripted poses.
 export class FlyPanel {
@@ -38,9 +39,9 @@ export class FlyPanel {
     this.targetRing=new THREE.Mesh(new THREE.RingGeometry(.29,.31,40),new THREE.MeshBasicMaterial({color:'#bde786',side:THREE.DoubleSide,transparent:true,opacity:.65}));this.scene.add(this.targetRing);
     this.minimap=document.createElement('canvas');this.minimap.className='physics-minimap';this.minimap.width=160;this.minimap.height=120;container.appendChild(this.minimap);
     this.topView=true;
-    this.viewButton=document.createElement('button');this.viewButton.className='fly-view-toggle';this.viewButton.textContent='俯视 · 切换侧视';container.appendChild(this.viewButton);
+    this.viewButton=document.createElement('button');this.viewButton.className='fly-view-toggle';this.viewButton.textContent=t('view-top');container.appendChild(this.viewButton);
     this.viewButton.addEventListener('pointerdown',e=>e.stopPropagation());
-    this.viewButton.onclick=()=>{this.topView=!this.topView;this.viewButton.textContent=this.topView?'俯视 · 切换侧视':'侧视 · 切换俯视'};
+    this.viewButton.onclick=()=>{this.topView=!this.topView;this.viewButton.textContent=this.topView?t('view-top'):t('view-side')};
     this.turnCanvas=document.createElement('canvas');this.turnCanvas.className='turn-comparison';this.turnCanvas.width=720;this.turnCanvas.height=320;container.parentElement.insertAdjacentElement('afterend',this.turnCanvas);
     this.headingArrow=new THREE.ArrowHelper(new THREE.Vector3(1,0,0),new THREE.Vector3(),2.8,0x65e2d3,.5,.25);this.scene.add(this.headingArrow);
     const referenceGeometry=new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(),new THREE.Vector3(2.8,0,0)]);
@@ -56,7 +57,7 @@ export class FlyPanel {
   resize(){const w=this.container.clientWidth,h=this.container.clientHeight;this.camera.aspect=w/h;this.camera.updateProjectionMatrix();this.renderer.setSize(w,h)}
   reset(){this.visual.forEach(v=>v.ready=false);this.centerReady=false}
   update(s){
-    this.state=s;const body=s.body,matrix=new THREE.Matrix4();
+    this.state=s;this.viewButton.textContent=this.topView?t('view-top'):t('view-side');const body=s.body,matrix=new THREE.Matrix4();
     this.targetPoses=body.geometry_positions.map((p,i)=>{
       const r=body.geometry_rotations[i];matrix.set(r[0],r[1],r[2],0,r[3],r[4],r[5],0,r[6],r[7],r[8],0,0,0,0,1);
       return {p:new THREE.Vector3(...p),q:new THREE.Quaternion().setFromRotationMatrix(matrix)};
@@ -79,24 +80,24 @@ export class FlyPanel {
     for(const [p,color,r]of [[s.body.position,'#e9eee0',3],[[s.target.x,s.target.y],'#c7eb8b',2.8]]){const [x,y]=xy(p);c.fillStyle=color;c.beginPath();c.arc(x,y,r,0,Math.PI*2);c.fill()}
     const [hx,hy]=xy(s.body.position),angle=-s.body.heading;
     c.save();c.translate(hx,hy);c.rotate(angle);c.strokeStyle='#e9eee0';c.beginPath();c.moveTo(0,0);c.lineTo(11,0);c.lineTo(7,-3);c.moveTo(11,0);c.lineTo(7,3);c.stroke();c.restore();
-    c.fillStyle='#7797a5';c.font='9px Consolas,monospace';c.fillText('THORAX PATH · WORLD XY',8,12);c.fillText('+X →  +Y ↑',8,24);
+    c.fillStyle='#7797a5';c.font='9px Consolas,monospace';c.fillText(t('minimap-title'),8,12);c.fillText(t('minimap-axis'),8,24);
   }
   drawTurnComparison(){
     const s=this.state,c=this.turnCanvas.getContext('2d'),w=720,h=320;
     const active=(s.response_path||[]).length>0,delta=(s.response_turn_deg||0)*Math.PI/180;
-    if(s.lesion){c.clearRect(0,0,w,h);c.fillStyle='#09151d';c.fillRect(0,0,w,h);c.fillStyle='#e6b48e';c.font='bold 32px Segoe UI';c.fillText('EEG 转向通路已切断',28,64);c.fillStyle='#adc0cb';c.font='22px Segoe UI';c.fillText('神经输出 L = 0 / R = 0',28,112);c.fillText('基础步态仍运行，并非停止或锁定航向',28,154);c.font='bold 42px Consolas';c.fillText(`切断后漂移 ${(s.cut_turn_deg||0).toFixed(1)}°`,28,222);c.font='20px Segoe UI';c.fillText('角度是真实身体运动，不再标为 EEG 左转 / 右转',28,280);return;}
+    if(s.lesion){c.clearRect(0,0,w,h);c.fillStyle='#09151d';c.fillRect(0,0,w,h);c.fillStyle='#e6b48e';c.font='bold 32px Segoe UI';c.fillText(t('bt-cut-title'),28,64);c.fillStyle='#adc0cb';c.font='22px Segoe UI';c.fillText(t('bt-cut-lr'),28,112);c.fillText(t('bt-cut-walk'),28,154);c.font='bold 42px Consolas';c.fillText(t('bt-cut-drift')+(s.cut_turn_deg||0).toFixed(1)+'°',28,222);c.font='20px Segoe UI';c.fillText(t('bt-cut-real'),28,280);return;}
     const color=delta<0?'#84aaff':'#65e2d3',cx=172,cy=217,r=139;
     c.clearRect(0,0,w,h);c.fillStyle='#09151d';c.fillRect(0,0,w,h);
-    c.font='20px "Segoe UI",sans-serif';c.fillStyle='#c4d7df';c.fillText('转向对比 · 解码时朝向固定向上',24,32);
+    c.font='20px "Segoe UI",sans-serif';c.fillStyle='#c4d7df';c.fillText(t('bt-turn-title'),24,32);
     c.strokeStyle='#263e4a';c.lineWidth=2;c.beginPath();c.arc(cx,cy,r,Math.PI,Math.PI*2);c.stroke();
     const arrow=(angle,stroke,dashed)=>{c.save();c.translate(cx,cy);c.rotate(angle);c.strokeStyle=stroke;c.lineWidth=dashed?3:6;c.setLineDash(dashed?[9,8]:[]);c.beginPath();c.moveTo(0,0);c.lineTo(0,-r);c.stroke();c.setLineDash([]);c.beginPath();c.moveTo(-12,-r+19);c.lineTo(0,-r);c.lineTo(12,-r+19);c.stroke();c.restore()};
     arrow(0,'#788d9a',true);if(active)arrow(-delta,color,false);
     if(active){c.fillStyle=delta<0?'#84aaff30':'#65e2d330';c.beginPath();c.moveTo(cx,cy);c.arc(cx,cy,r,-Math.PI/2,-Math.PI/2-delta,delta>0);c.closePath();c.fill();}
     c.fillStyle=color;c.font='bold 44px "Segoe UI",sans-serif';
-    c.fillText(active?(Math.abs(s.response_turn_deg)<1?'响应中':delta>=0?'↶ 左转':'右转 ↷'):'等待解码',356,116);
+    c.fillText(active?(Math.abs(s.response_turn_deg)<1?t('bt-responding'):delta>=0?t('bt-left'):t('bt-right')):t('bt-wait'),356,116);
     c.font='bold 56px Consolas,monospace';c.fillText(active?Math.abs(s.response_turn_deg).toFixed(1)+'°':'—',356,181);
-    c.fillStyle='#94a9b5';c.font='19px "Segoe UI",sans-serif';c.fillText('虚线：解码时朝向',356,225);c.fillStyle=color;c.fillText('实线：当前身体朝向',356,255);
-    c.fillStyle='#758e9c';c.font='17px "Segoe UI",sans-serif';c.fillText('真实角度 · 未放大     左 ←            → 右',24,295);
+    c.fillStyle='#94a9b5';c.font='19px "Segoe UI",sans-serif';c.fillText(t('bt-dashed'),356,225);c.fillStyle=color;c.fillText(t('bt-solid'),356,255);
+    c.fillStyle='#758e9c';c.font='17px "Segoe UI",sans-serif';c.fillText(t('bt-axis'),24,295);
   }
   render(){
     if(this.state&&this.targetPoses){

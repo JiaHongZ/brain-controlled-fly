@@ -8,3 +8,12 @@
 @media(min-width:1151px){.dashboard{grid-template-columns:minmax(265px,1fr) minmax(420px,1.55fr) minmax(285px,1.2fr)}}
 
 .turn-comparison{display:block;width:calc(100% - 30px);height:auto;margin:0 15px 15px;border:1px solid #29424d;border-radius:5px}.fly-view-toggle{position:absolute;left:12px;bottom:30px;z-index:3;background:#122832e8;border:1px solid #476b77;border-radius:4px;color:#d2edf0;padding:7px;font-size:10px}.fly-panel .arena{height:370px}
+
+#lang-toggle{margin-left:14px;font-size:11px;color:#a7b6bb;border:1px solid #2a3a43;border-radius:4px;padding:5px 10px}
+#lang-toggle:hover{color:var(--cyan);border-color:var(--cyan)}
+.manual-control{display:flex;align-items:center;gap:8px}
+.manual-control[hidden]{display:none}
+.manual-control .manual-label{font:9px var(--mono);letter-spacing:1px;color:var(--muted)}
+.manual-btn{padding:8px 12px;border-radius:4px;color:#69838d;font:11px var(--sans);border:1px solid #24343e;background:#0d161c}
+.manual-btn:hover{color:var(--cyan)}
+.manual-btn.selected{color:#062b2a;background:var(--cyan);border-color:var(--cyan)}

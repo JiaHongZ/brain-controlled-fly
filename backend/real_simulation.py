@@ -10,12 +10,12 @@ class RealSimulation:
     TRIAL_SECONDS=5.
     def __init__(self,graph,data):
         self.graph=graph;self.data=data;self.net=MeasuredDynamics(graph)
-        self.body=BiomechanicalFly();self.mode='decoded';self.running=True;self.speed=1.
+        self.body=BiomechanicalFly();self.mode='decoded';self.running=True;self.speed=1.;self.manual_side=None
         self.reset(reset_body=False)
 
     def reset(self,reset_body=True):
         self.index=0;self.tick=0;self.sequence=0;self.elapsed=0.
-        self.events=[];self.command='WAIT';self.hits=0;self.error=None;self.lesion=False
+        self.events=[];self.command='WAIT';self.hits=0;self.error=None;self.lesion=False;self.manual_side=None
         self.target=dict(x=12.,y=6.,z=0.)
         self.net.reset()
         if reset_body:self.body.reset()
@@ -34,9 +34,11 @@ class RealSimulation:
         elif action=='play' and self.error is None:self.running=True
         elif action=='reset':self.reset()
         elif action=='next':self.next_trial()
-        elif action=='mode' and message.get('value') in ('truth','decoded'):
+        elif action=='mode' and message.get('value') in ('truth','decoded','manual'):
             self.mode=message['value'];self.tick=0;self.command='WAIT';self.net.reset();self.net.lesion=self.lesion
             self.response_path=[];self.response_turn=0.
+        elif action=='manual' and message.get('value') in ('L','R'):
+            self.manual_side=message['value']
         elif action=='speed' and message.get('value') in (.5,1,2):self.speed=float(message['value'])
         elif action=='steering_gain' and message.get('value') in (1,1.5,2):self.body.steering_gain=float(message['value'])
         elif action=='lesion' and isinstance(message.get('value'),bool):
@@ -44,11 +46,16 @@ class RealSimulation:
             self.command='HOLD';self.response_path=[];self.response_turn=0.
             self.cut_turn=0.;self.cut_time=self.body_state['physics_time']
 
+    def current_side(self,t):
+        if self.mode=='manual':
+            return self.manual_side if 2<=t<3.8 else None
+        cls=int(self.data['labels' if self.mode=='truth' else 'predictions'][self.index])
+        return ('L','R')[cls] if 2<=t<3.8 else None
+
     def step(self):
         if not self.running:return
         t=self.tick*self.DT
-        cls=int(self.data['labels' if self.mode=='truth' else 'predictions'][self.index])
-        side=('L','R')[cls] if 2<=t<3.8 else None
+        side=self.current_side(t)
         motor=self.net.step(side)
         normalized={s:motor[s]/self.graph.motor_scale for s in ('L','R')}
         # This is the ONLY input into the body. No class/label/side is passed.
@@ -78,7 +85,7 @@ class RealSimulation:
         if self.tick>=100:self.next_trial()
 
     def payload(self):
-        t=self.tick*self.DT;motor=self.net.motor_activity()
+        t=self.tick*self.DT;motor=self.net.motor_activity();side=self.current_side(t)
         normalized={s:float(motor[s]/self.graph.motor_scale) for s in ('L','R')}
         return dict(trial=self.index,sequence=self.sequence,time=round(t,3),elapsed=round(self.elapsed,2),
                     phase='ACQUIRE' if t<2 else 'INPUT' if t<2.6 else 'PROPAGATE' if t<3.4 else 'MOTOR' if t<4 else 'MOVE',
@@ -91,6 +98,6 @@ class RealSimulation:
                     response_path=self.response_path,response_turn_deg=self.response_turn,
                     steering_gain=self.body.steering_gain,
                     cut_turn_deg=self.cut_turn,cut_elapsed=self.body_state['physics_time']-self.cut_time if self.lesion else 0.,
-                    distance=self.body_state['distance'],mode=self.mode,running=self.running,speed=self.speed,
+                    distance=self.body_state['distance'],mode=self.mode,manual_side=self.manual_side,running=self.running,speed=self.speed,
                     lesion=self.lesion,error=self.error,body_time_scale=self.BODY_DT/self.DT,
-                    input_body_id=self.graph.config['input_body_ids'][('L','R')[int(self.data['labels' if self.mode=='truth' else 'predictions'][self.index])]] if t>=2 else None)
+                    input_body_id=self.graph.config['input_body_ids'][side] if side else None)
