@@ -1,6 +1,6 @@
 # Brain-Controlled Digital Fly
 
-> **🖥️ Live Demo**: <https://naturals-extremely-operation-grill.trycloudflare.com>
+> **🖥️ Live Demo**: <https://treasury-induced-readers-wall.trycloudflare.com>
 
 **To deploy to a web server, see [DEPLOY.md](DEPLOY.md). Docker / Compose / Nginx configs are included.**
 
